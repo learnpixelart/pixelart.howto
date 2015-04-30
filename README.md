@@ -5,11 +5,12 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
-   - 4.2.0 -  Dec/20, 2014 
-   - 4.1.0 -  Apr/8, 2014
-   - 4.0.0 -  Jun/25, 2013
+   - 2014: v4.2.0 - Dec/20; v4.1.0 - Apr/8
+   - 2013: v4.0.0 - Jun/25
 
 ## Documentation
+
+- [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
 
 ### Rails Guides Series
 
@@ -19,6 +20,30 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 - [Active Record Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
 - [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
 - [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
+
+
+## Tags & Taggings, Categories & Categorizations
+
+- [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
+- [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
+- [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+
+## Text-to-SQL
+
+- [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
+
+## Schema Documentation / Diagrams
+
+- [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
+- [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
+
+
+## ActiveRecord Models / Schemas
+
+- [world.db Models :octocat:](https://github.com/worlddb/world.db.models) - place, continent, country, state, muni, city, district, language, name, etc.
+- [sport.db Models :octocat:](https://github.com/sportdb/sport.db.models) - team, competition, season, league, match, round, group, squad, player, goal, etc.
+- [beer.db Models :octocat:](https://github.com/beerkit/beer.db.models) - beer, brand, brewery, etc.
+
 
 ## Databases
 
@@ -31,8 +56,9 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 - [Awesome MySQL :octocat:](https://github.com/shlomi-noach/awesome-mysql)
 
 
-## Diagrams / "Visual" Models
+## Datasets / Plain Text Fixtures
 
+- [Awesome World @ Planet Open Data :octocat:](https://github.com/planetopendata/awesome-world) - countries, cities, languages, flags, latitude/longitude, etc.
 
 ## Alternatives
 
