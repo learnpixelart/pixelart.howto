@@ -18,7 +18,7 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
 
-### Rails Guides Series
+**Rails Guides Series**
 
 - [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
 - [Active Record Migrations](http://guides.rubyonrails.org/active_record_migrations.html)
@@ -47,12 +47,12 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 
 - [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
 
-## Database Admin
+## Database Admin / Scaffold
 
 - [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
 - [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
 
-## ActiveRecord Importer
+## Bulk / Batch Importer
 
 - [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
 - [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer) - another simple data importer for activerecord in ruby
