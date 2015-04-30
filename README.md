@@ -22,11 +22,34 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 - [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
 
 
+## ActsAsList
+
+- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+
+## ActsAsTree
+
+- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
+
 ## Tags & Taggings, Categories & Categorizations
 
 - [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
 - [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
 - [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+
+
+## Database Browser
+
+- [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
+
+## Database Admin
+
+- [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
+- [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
+
+## ActiveRecord Importer
+
+- [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
+- [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer) - another simple data importer for activerecord in ruby
 
 ## Text-to-SQL
 
@@ -43,6 +66,13 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 - [world.db Models :octocat:](https://github.com/worlddb/world.db.models) - place, continent, country, state, muni, city, district, language, name, etc.
 - [sport.db Models :octocat:](https://github.com/sportdb/sport.db.models) - team, competition, season, league, match, round, group, squad, player, goal, etc.
 - [beer.db Models :octocat:](https://github.com/beerkit/beer.db.models) - beer, brand, brewery, etc.
+
+
+## Misc 
+
+- [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils) - utilities (e.g. random, alias_attr, etc.) for activerecord 
+- [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord) - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
+- [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord) - another logger addon for activerecord (LogDb, Log Model etc.) 
 
 
 ## Databases
