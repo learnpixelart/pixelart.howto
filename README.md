@@ -83,11 +83,11 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 
 ## Databases
 
-### SQLite
+**SQLite**
 
 - [Awesome SQLite @ Planet Open Data :octocat:](https://github.com/planetopendata/awesome-sqlite)
 
-### MySQL / MariaDB
+**MySQL / MariaDB**
 
 - [Awesome MySQL :octocat:](https://github.com/shlomi-noach/awesome-mysql)
 
