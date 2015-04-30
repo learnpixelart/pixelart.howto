@@ -2,6 +2,12 @@
 
 A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
 
+---
+
+[ANNOUNCEMENT] Looking for awesome Ruby events (meetups, conferences, camps, etc.) from around the world)? See the [Awesome Events List @ Planet Ruby](https://github.com/planetruby/awesome-events). 
+
+---
+
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
