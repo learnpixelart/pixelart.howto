@@ -20,6 +20,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## Documentation
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
+
 <!--
     - [ActiveRecord::Base](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Base)
     - [ActiveRecord::Associations::ClassMethods](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Associations/ClassMethods) - belongs_to, has_one, has_many, has_and_belongs_to_many and friends
@@ -68,11 +69,17 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 - [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
 
-## Schema Documentation / Diagrams
+
+## Schema Documentation / Diagrams / Annotations
 
 - [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
 - [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
+- [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models) - adds annotations (comments about the table schema) to your models
 
+
+## Schema Extensions
+
+- [SchemaPlus :octocat:](https://github.com/SchemaPlus) - foreign key constraints, indexes, (auto-)validations and much more
 
 ## Ready-to-Use (Instant) Models / Schemas
 
