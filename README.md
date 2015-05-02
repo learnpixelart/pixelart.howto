@@ -56,6 +56,11 @@ Rails Guides Series
 - [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
 - [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
 
+## Pagination
+
+- [Kaminari :octocat:](https://github.com/amatsuda/kaminari) - a scope and engine based, clean, powerful, customizable and sophisticated paginator
+- [will_paginate :octocat:](https://github.com/mislav/will_paginate) - a pagination library
+- [order_query :octocat:](https://github.com/glebm/order_query) - uses no offset; finds the next or previous record(s) relative to the current one efficiently using keyset pagination, e.g. for navigation or infinite scroll
 
 ## Database Browser
 
@@ -94,7 +99,7 @@ Documentation
 - [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
 
 
-## Schema Documentation / Diagrams / Annotations
+## Schema Documentation / Annotations / Diagrams 
 
 - [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
 - [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
