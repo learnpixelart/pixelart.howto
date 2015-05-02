@@ -20,8 +20,10 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## Documentation
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
+<!--
     - [ActiveRecord::Base](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Base)
     - [ActiveRecord::Associations::ClassMethods](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Associations/ClassMethods) - belongs_to, has_one, has_many, has_and_belongs_to_many and friends
+-->
 
 **Rails Guides Series**
 
