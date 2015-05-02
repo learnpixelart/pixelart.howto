@@ -42,11 +42,11 @@ Rails Guides Series
 - [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
 
 
-## ActsAsList
+## ActsAsList - Sortable
 
 - [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
 
-## ActsAsTree
+## ActsAsTree - Hierarchy / Nested
 
 - [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
 
@@ -62,7 +62,7 @@ Rails Guides Series
 - [will_paginate :octocat:](https://github.com/mislav/will_paginate) - a pagination library
 - [order_query :octocat:](https://github.com/glebm/order_query) - uses no offset; finds the next or previous record(s) relative to the current one efficiently using keyset pagination, e.g. for navigation or infinite scroll
 
-## Versioning
+## ActsAsVersioned - Versioning / Auditing
 
 - [PaperTrail :octocat:](https://github.com/airblade/paper_trail) - lets you track changes to your models' data
 - [Audited :octocat:](https://github.com/collectiveidea/audited) - formerly acts_as_audited; logs all changes to your Rails models
@@ -72,7 +72,7 @@ Rails Guides Series
 - [acts_as_versioned :octocat:](https://github.com/technoweenie/acts_as_versioned) - adds simple versioning to an ActiveRecord module
 
 
-## Soft Delete / Keep Deleted Records
+## ActsAsParanoid - Soft Delete / Keep Deleted Records
 
 - [Paranoia :octocat:](https://github.com/radar/paranoia) - a re-implementation of acts_as_paranoid
 - [ActsAsParanoid :octocat:](https://github.com/ActsAsParanoid/acts_as_paranoid) - soft delete; hide records instead of deleting them, making them recoverable later
@@ -80,6 +80,12 @@ Rails Guides Series
 - [DestroyedAt :octocat:](https://github.com/dockyard/ruby-destroyed_at) - ActiveRecord mixin for safe destroys
 - [Immortal :octocat:](https://github.com/teambox/immortal) - make any ActiveRecord model paranoid by just including Immortal, and instead of being deleted from the database, the object will just marked as deleted with a boolean field in the database 
 - [ActsAsArchive :octocat:](https://github.com/winton/acts_as_archive) - don't delete your records, move them to a different table
+
+
+## ActsAsStateMachine - State Machines 
+
+- [AASM](https://github.com/aasm/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
+- [State Machines](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
 
 
 
