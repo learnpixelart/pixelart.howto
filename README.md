@@ -14,12 +14,14 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
-   - 2014: v4.2.0 - Dec/20; v4.1.0 - Apr/8
-   - 2013: v4.0.0 - Jun/25
+   - 2014: v4.2.0 (Dec/20); v4.1.0 (Apr/8)
+   - 2013: v4.0.0 (Jun/25)
 
 ## Documentation
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
+    - [ActiveRecord::Base](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Base)
+    - [ActiveRecord::Associations::ClassMethods](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Associations/ClassMethods) - belongs_to, has_one, has_many, has_and_belongs_to_many and friends
 
 **Rails Guides Series**
 
