@@ -14,15 +14,15 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
-   - 2014: v4.2.0 (Dec/20); v4.1.0 (Apr/8)
-   - 2013: v4.0.0 (Jun/25)
-   - 2012: v3.2.0 (Jan/20)
-   - 2011: v3.1.0 (Aug/31)
-   - 2010: v3.0.0 (Aug/29)
-   - 2007: v2.0.0 (Dec/6)
-   - 2004: v1.0.0 (Oct/25)
+   - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8)
+   - 2013: 4.0.0 (Jun/25)
+   - 2012: 3.2.0 (Jan/20)
+   - 2011: 3.1.0 (Aug/31)
+   - 2010: 3.0.0 (Aug/29) 
+   - 2007: 2.0.0 (Dec/6)
+   - 2004: 1.0.0 (Oct/25)
 
-**Documentation**
+Documentation
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
 - [Article - 20,000 Leagues Under ActiveRecord](http://patshaughnessy.net/2014/9/17/20000-leagues-under-activerecord) - by Pat Shaughnessy
@@ -32,7 +32,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
     - [ActiveRecord::Associations::ClassMethods](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Associations/ClassMethods) - belongs_to, has_one, has_many, has_and_belongs_to_many and friends
 -->
 
-**Rails Guides Series**
+Rails Guides Series
 
 - [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
 - [Active Record Migrations](http://guides.rubyonrails.org/active_record_migrations.html)
@@ -65,6 +65,8 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 - [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
 - [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
+- [Typus :octocat:](https://github.com/typus) - admin panels and more
+- [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby) 
 
 ## Bulk / Batch Importer
 
@@ -78,9 +80,9 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 ## Arel / A Relational Algebra / Arel Really Exasperates Logicians
 
-- [Arel gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
+- [Arel Gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
 
-**Documentation**
+Documentation
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/arel)
 - [Article - How Arel Converts Ruby Queries Into SQL Statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements) - by Pat Shaughnessy
