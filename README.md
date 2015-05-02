@@ -8,6 +8,9 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 
 ---
 
+Contributions welcome. Anything missing? Send in a pull request. Thanks.
+
+
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
@@ -67,7 +70,7 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 - [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
 
 
-## ActiveRecord Models / Schemas
+## Ready-to-Use (Instant) Models / Schemas
 
 - [world.db Models :octocat:](https://github.com/worlddb/world.db.models) - place, continent, country, state, muni, city, district, language, name, etc.
 - [sport.db Models :octocat:](https://github.com/sportdb/sport.db.models) - team, competition, season, league, match, round, group, squad, player, goal, etc.
