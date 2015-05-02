@@ -102,17 +102,6 @@ Rails Guides Series
 - [Apartment :octocat:](https://github.com/influitive/apartment) - database multi-tenancy for ActiveRecord
 
 
-## Database Browser
-
-- [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
-
-## Database Admin / Scaffold
-
-- [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
-- [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
-- [Typus :octocat:](https://github.com/typus) - admin panels and more
-- [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby) 
-
 ## Bulk / Batch Importer
 
 - [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
@@ -132,6 +121,17 @@ Documentation
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/arel)
 - [Article - How Arel Converts Ruby Queries Into SQL Statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements) - by Pat Shaughnessy
 
+
+## Database Browser
+
+- [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
+
+## Database Admin / Scaffold
+
+- [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
+- [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
+- [Typus :octocat:](https://github.com/typus) - admin panels and more
+- [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby) 
 
 
 ## Text-to-SQL
