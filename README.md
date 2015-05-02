@@ -62,6 +62,27 @@ Rails Guides Series
 - [will_paginate :octocat:](https://github.com/mislav/will_paginate) - a pagination library
 - [order_query :octocat:](https://github.com/glebm/order_query) - uses no offset; finds the next or previous record(s) relative to the current one efficiently using keyset pagination, e.g. for navigation or infinite scroll
 
+## Versioning
+
+- [PaperTrail :octocat:](https://github.com/airblade/paper_trail) - lets you track changes to your models' data
+- [Audited :octocat:](https://github.com/collectiveidea/audited) - formerly acts_as_audited; logs all changes to your Rails models
+- [Vestal Versions :octocat:](https://github.com/laserlemon/vestal_versions) - keep a history of your ActiveRecord models' changes
+- [Espinata :octocat:](https://github.com/continuum/espinita) - audits activerecord models 
+- [Auditable :octocat:](https://github.com/harley/auditable) - a simple(r) auditing / version tracking library for ActiveRecord
+- [acts_as_versioned :octocat:](https://github.com/technoweenie/acts_as_versioned) - adds simple versioning to an ActiveRecord module
+
+
+## Soft Delete / Keep Deleted Records
+
+- [Paranoia :octocat:](https://github.com/radar/paranoia) - a re-implementation of acts_as_paranoid
+- [ActsAsParanoid :octocat:](https://github.com/ActsAsParanoid/acts_as_paranoid) - soft delete; hide records instead of deleting them, making them recoverable later
+- [PermanentRecords :octocat:](https://github.com/JackDanger/permanent_records) - soft-delete your ActiveRecord records; it's like an explicit version of ActsAsParanoid 
+- [DestroyedAt :octocat:](https://github.com/dockyard/ruby-destroyed_at) - ActiveRecord mixin for safe destroys
+- [Immortal :octocat:](https://github.com/teambox/immortal) - make any ActiveRecord model paranoid by just including Immortal, and instead of being deleted from the database, the object will just marked as deleted with a boolean field in the database 
+- [ActsAsArchive :octocat:](https://github.com/winton/acts_as_archive) - don't delete your records, move them to a different table
+
+
+
 ## Database Browser
 
 - [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
