@@ -45,16 +45,25 @@ Rails Guides Series
 ## ActsAsList - Sortable
 
 - [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+- [ranked-model :octocat:](https://github.com/mixonic/ranked-model)
 
 ## ActsAsTree - Hierarchy / Nested
 
 - [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
+- [Ancestry :octocat:](https://github.com/stefankroes/ancestry) - organise ActiveRecord model into a tree structure
+
 
 ## Tags & Taggings, Categories & Categorizations
 
 - [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
 - [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
 - [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+
+
+## Validations
+
+- [ActiveValidators :octocat:](https://github.com/franckverrot/activevalidators) - a collection of off-the-shelf ActiveRecord validations 
+
 
 ## Pagination
 
@@ -128,13 +137,14 @@ Documentation
 ## Text-to-SQL
 
 - [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
+- [data_miner :octocat:](https://github.com/seamusabshere/data_miner) - download, pull out of a ZIP/TAR/GZ/BZ2 archive, parse, correct, and import XLS, ODS, XML, CSV, HTML, etc. into your ActiveRecord models 
 
 
 ## Schema Documentation / Annotations / Diagrams 
 
-- [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
-- [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
 - [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models) - adds annotations (comments about the table schema) to your models
+- [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
+- [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
 
 
 ## Schema Extensions
