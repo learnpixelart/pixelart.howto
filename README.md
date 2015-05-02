@@ -42,16 +42,6 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 - [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
 
 
-## Arel / A Relational Algebra / Arel Really Exasperates Logicians
-
-- [Arel gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
-
-**Documentation**
-
-- [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/arel)
-- [Article - How Arel Converts Ruby Queries Into SQL Statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements) - by Pat Shaughnessy
-
-
 ## ActsAsList
 
 - [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
@@ -80,6 +70,22 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 - [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
 - [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer) - another simple data importer for activerecord in ruby
+
+
+## ActiveRecord and PostgreSQL
+
+- [ActiveRecord and PostgreSQL @ Rails Guides](http://guides.rubyonrails.org/active_record_postgresql.html) - PostgreSQL specific usage of Active Record (e.g. use PostgreSQL's datatypes - hstore, json, array etc.; use UUID primary keys; use full text search with PostgreSQL and more)
+
+## Arel / A Relational Algebra / Arel Really Exasperates Logicians
+
+- [Arel gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
+
+**Documentation**
+
+- [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/arel)
+- [Article - How Arel Converts Ruby Queries Into SQL Statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements) - by Pat Shaughnessy
+
+
 
 ## Text-to-SQL
 
