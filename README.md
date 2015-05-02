@@ -63,6 +63,7 @@ Rails Guides Series
 ## Validations
 
 - [ActiveValidators :octocat:](https://github.com/franckverrot/activevalidators) - a collection of off-the-shelf ActiveRecord validations 
+- [validates_email_format_of] (https://github.com/validates-email-format-of/validates_email_format_of) - Validate e-mail addresses against RFC 2822 and RFC 3696
 
 
 ## Pagination
