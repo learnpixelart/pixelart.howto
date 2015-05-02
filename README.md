@@ -16,10 +16,16 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
    - 2014: v4.2.0 (Dec/20); v4.1.0 (Apr/8)
    - 2013: v4.0.0 (Jun/25)
+   - 2012: v3.2.0 (Jan/20)
+   - 2011: v3.1.0 (Aug/31)
+   - 2010: v3.0.0 (Aug/29)
+   - 2007: v2.0.0 (Dec/6)
+   - 2004: v1.0.0 (Oct/25)
 
-## Documentation
+**Documentation**
 
 - [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/activerecord)
+- [Article - 20,000 Leagues Under ActiveRecord](http://patshaughnessy.net/2014/9/17/20000-leagues-under-activerecord) - by Pat Shaughnessy
 
 <!--
     - [ActiveRecord::Base](http://www.rubydoc.info/gems/activerecord/ActiveRecord/Base)
@@ -34,6 +40,16 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 - [Active Record Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
 - [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
 - [Active Record Query Interface](http://guides.rubyonrails.org/active_record_querying.html)
+
+
+## Arel / A Relational Algebra / Arel Really Exasperates Logicians
+
+- [Arel gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
+
+**Documentation**
+
+- [RDoc @ RubyDoc.info](http://www.rubydoc.info/gems/arel)
+- [Article - How Arel Converts Ruby Queries Into SQL Statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements) - by Pat Shaughnessy
 
 
 ## ActsAsList
