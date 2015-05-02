@@ -84,9 +84,13 @@ Rails Guides Series
 
 ## ActsAsStateMachine - State Machines 
 
-- [AASM](https://github.com/aasm/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
-- [State Machines](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
+- [AASM :octocat:](https://github.com/aasm/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
+- [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
 
+## Multi Tenancy
+
+- [ActsAsTenant :octocat:](https://github.com/ErwinM/acts_as_tenant) - easy multi-tenancy in a shared database setup
+- [Apartment :octocat:](https://github.com/influitive/apartment) - database multi-tenancy for ActiveRecord
 
 
 ## Database Browser
