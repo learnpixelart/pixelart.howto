@@ -94,41 +94,41 @@ Rails Guides Series
 
 ## ActsAsParanoid - Soft Delete / Keep Deleted Records
 
-- [Paranoia :octocat:](https://github.com/radar/paranoia), [:gem:]() - a re-implementation of acts_as_paranoid
-- [ActsAsParanoid :octocat:](https://github.com/ActsAsParanoid/acts_as_paranoid), [:gem:]() - soft delete; hide records instead of deleting them, making them recoverable later
-- [PermanentRecords :octocat:](https://github.com/JackDanger/permanent_records), [:gem:]() - soft-delete your ActiveRecord records; it's like an explicit version of ActsAsParanoid 
-- [DestroyedAt :octocat:](https://github.com/dockyard/ruby-destroyed_at), [:gem:]() - ActiveRecord mixin for safe destroys
-- [Immortal :octocat:](https://github.com/teambox/immortal), [:gem:]() - make any ActiveRecord model paranoid by just including Immortal, and instead of being deleted from the database, the object will just marked as deleted with a boolean field in the database 
-- [ActsAsArchive :octocat:](https://github.com/winton/acts_as_archive), [:gem:]() - don't delete your records, move them to a different table
+- [Paranoia :octocat:](https://github.com/radar/paranoia), [:gem:](https://rubygems.org/gems/paranoia) - a re-implementation of acts_as_paranoid
+- [ActsAsParanoid :octocat:](https://github.com/ActsAsParanoid/acts_as_paranoid), [:gem:](https://rubygems.org/gems/acts_as_paranoid) - soft delete; hide records instead of deleting them, making them recoverable later
+- [PermanentRecords :octocat:](https://github.com/JackDanger/permanent_records), [:gem:](https://rubygems.org/gems/permanent_records) - soft-delete your ActiveRecord records; it's like an explicit version of ActsAsParanoid 
+- [DestroyedAt :octocat:](https://github.com/dockyard/ruby-destroyed_at), [:gem:](https://rubygems.org/gems/destroyed_at) - ActiveRecord mixin for safe destroys
+- [Immortal :octocat:](https://github.com/teambox/immortal), [:gem:](https://rubygems.org/gems/immortal) - make any ActiveRecord model paranoid by just including Immortal, and instead of being deleted from the database, the object will just marked as deleted with a boolean field in the database 
+- [ActsAsArchive :octocat:](https://github.com/winton/acts_as_archive), [:gem:](https://rubygems.org/gems/acts_as_archive) - don't delete your records, move them to a different table
 
 
 ## ActsAsStateMachine - State Machines 
 
-- [AASM :octocat:](https://github.com/aasm/aasm), [:gem:]() - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
-- [:congratulations:](http://planetruby.github.io/gems/state-machine.html) [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord), [:gem:]() - state machines for ActiveRecord
+- [AASM :octocat:](https://github.com/aasm/aasm), [:gem:](https://rubygems.org/gems/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
+- [:congratulations:](http://planetruby.github.io/gems/state-machine.html) [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord), [:gem:](https://rubygems.org/gems/state_machines-activerecord) - state machines for ActiveRecord
 
 ## Search
 
-- [Ransack :octocat:](https://github.com/activerecord-hackery/ransack), [:gem:]() - object-based searching
+- [Ransack :octocat:](https://github.com/activerecord-hackery/ransack), [:gem:](https://rubygems.org/gems/ransack) - object-based searching
 
 ##  Query Builder
 
-- [Squeel :octocat:](https://github.com/activerecord-hackery/squeel), [:gem:]() - lets you write your Active Record queries with fewer strings, and more Ruby
+- [Squeel :octocat:](https://github.com/activerecord-hackery/squeel), [:gem:](https://rubygems.org/gems/squeel) - lets you write your Active Record queries with fewer strings, and more Ruby
 
 ## Multi Tenancy
 
-- [ActsAsTenant :octocat:](https://github.com/ErwinM/acts_as_tenant), [:gem:]() - easy multi-tenancy in a shared database setup
-- [Apartment :octocat:](https://github.com/influitive/apartment), [:gem:]() - database multi-tenancy for ActiveRecord
+- [ActsAsTenant :octocat:](https://github.com/ErwinM/acts_as_tenant), [:gem:](https://rubygems.org/gems/acts_as_tenant) - easy multi-tenancy in a shared database setup
+- [Apartment :octocat:](https://github.com/influitive/apartment), [:gem:](https://rubygems.org/gems/apartment) - database multi-tenancy for ActiveRecord
 
 ## Performance / Profiling / Debugging
 
-- [Bullet :octocat:](https://github.com/flyerhzm/bullet), [:gem:]() - help to kill N+1 queries and unused eager loading
-- [marginalia :octocat:](https://github.com/basecamp/marginalia), [:gem:]() - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
+- [Bullet :octocat:](https://github.com/flyerhzm/bullet), [:gem:](https://rubygems.org/gems/apartment) - help to kill N+1 queries and unused eager loading
+- [marginalia :octocat:](https://github.com/basecamp/marginalia), [:gem:](https://rubygems.org/gems/marginalia) - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
 
 ## Bulk / Batch Importer
 
-- [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import), [:gem:]() - activerecord-import is a library for bulk inserting data using ActiveRecord
-- [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer), [:gem:]() - another simple data importer for activerecord in ruby
+- [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import), [:gem:](https://rubygems.org/gems/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
+- [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer), [:gem:](https://rubygems.org/gems/activerecord-importer) - another simple data importer for activerecord in ruby
 
 
 ## ActiveRecord and PostgreSQL
@@ -147,45 +147,45 @@ Documentation
 
 ## Database Browser
 
-- [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser), [:gem:]() - database browser (connections, schema, tables, records, etc.) as mountable web app 
+- [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser), [:gem:](https://rubygems.org/gems/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
 
 ## Database Admin / Scaffold
 
-- [ActiveAdmin](http://activeadmin.info) - [:octocat:](https://github.com/activeadmin), [:gem:]()
-- [RailsAdmin :octocat:](https://github.com/sferik/rails_admin), [:gem:]()
-- [Typus :octocat:](https://github.com/typus), [:gem:]() - admin panels and more
-- [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby), [:gem:]() 
+- [ActiveAdmin](http://activeadmin.info) - [:octocat:](https://github.com/activeadmin), [:gem:](https://rubygems.org/gems/activeadmin)
+- [RailsAdmin :octocat:](https://github.com/sferik/rails_admin), [:gem:](https://rubygems.org/gems/rails_admin)
+- [Typus :octocat:](https://github.com/typus), [:gem:](https://rubygems.org/gems/typus) - admin panels and more
+- [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby), [:gem:](https://rubygems.org/gems/upmin-admin) 
 
 
 ## Text-to-SQL
 
-- [:congratulations:](http://planetruby.github.io/gems/datapak.html) [Datapak :octocat:](https://github.com/textkit/datapak), [:gem:]() -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
-- [data_miner :octocat:](https://github.com/seamusabshere/data_miner), [:gem:]() - download, pull out of a ZIP/TAR/GZ/BZ2 archive, parse, correct, and import XLS, ODS, XML, CSV, HTML, etc. into your ActiveRecord models 
+- [:congratulations:](http://planetruby.github.io/gems/datapak.html) [Datapak :octocat:](https://github.com/textkit/datapak), [:gem:](https://rubygems.org/gems/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
+- [data_miner :octocat:](https://github.com/seamusabshere/data_miner), [:gem:](https://rubygems.org/gems/data_miner) - download, pull out of a ZIP/TAR/GZ/BZ2 archive, parse, correct, and import XLS, ODS, XML, CSV, HTML, etc. into your ActiveRecord models 
 
 
 ## Schema Documentation / Annotations / Diagrams 
 
-- [:congratulations:](http://planetruby.github.io/gems/annotate.html) [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models), [:gem:]() - adds annotations (comments about the table schema) to your models
-- [:congratulations:](http://planetruby.github.io/gems/rails-erd.html) [rails-erd :octocat:](https://github.com/voormedia/rails-erd), [:gem:]() - generate entity-relationship diagrams (ERD) for your activerecord models
-- [:congratulations:](http://planetruby.github.io/gems/schemadoc.html) [schemadoc :octocat:](https://github.com/rubylibs/schemadoc), [:gem:]() - auto-generate your database schema docs for tables, columns, etc.
+- [:congratulations:](http://planetruby.github.io/gems/annotate.html) [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models), [:gem:](https://rubygems.org/gems/annotate) - adds annotations (comments about the table schema) to your models
+- [:congratulations:](http://planetruby.github.io/gems/rails-erd.html) [rails-erd :octocat:](https://github.com/voormedia/rails-erd), [:gem:](https://rubygems.org/gems/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
+- [:congratulations:](http://planetruby.github.io/gems/schemadoc.html) [schemadoc :octocat:](https://github.com/rubylibs/schemadoc), [:gem:](https://rubygems.org/gems/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
 
 
 ## Schema Extensions
 
-- [SchemaPlus :octocat:](https://github.com/SchemaPlus), [:gem:]() - foreign key constraints, indexes, (auto-)validations and much more
+- [SchemaPlus :octocat:](https://github.com/SchemaPlus), [:gem:](https://rubygems.org/gems/schema_plus) - foreign key constraints, indexes, (auto-)validations and much more
 
 ## Ready-to-Use (Instant) Models / Schemas
 
-- [world.db Models :octocat:](https://github.com/worlddb/world.db.models), [:gem:]() - place, continent, country, state, muni, city, district, language, name, etc.
-- [sport.db Models :octocat:](https://github.com/sportdb/sport.db.models), [:gem:]() - team, competition, season, league, match, round, group, squad, player, goal, etc.
-- [:congratulations:](http://planetruby.github.io/gems/beerdb.html) [beer.db Models :octocat:](https://github.com/beerkit/beer.db.models), [:gem:]() - beer, brand, brewery, etc.
+- [world.db Models :octocat:](https://github.com/worlddb/world.db.models), [:gem:](https://rubygems.org/gems/worlddb-models) - place, continent, country, state, muni, city, district, language, name, etc.
+- [sport.db Models :octocat:](https://github.com/sportdb/sport.db.models), [:gem:](https://rubygems.org/gems/sportdb-models) - team, competition, season, league, match, round, group, squad, player, goal, etc.
+- [:congratulations:](http://planetruby.github.io/gems/beerdb.html) [beer.db Models :octocat:](https://github.com/beerkit/beer.db.models), [:gem:](https://rubygems.org/gems/beerdb-models) - beer, brand, brewery, etc.
 
 
 ## Misc 
 
-- [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils), [:gem:]() - utilities (e.g. random, alias_attr, etc.) for activerecord 
-- [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord), [:gem:]() - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
-- [:congratulations:](http://planetruby.github.io/gems/logutils.html) [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord), [:gem:]() - another logger addon for activerecord (LogDb, Log Model etc.) 
+- [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils), [:gem:](https://rubygems.org/gems/activerecord-utils) - utilities (e.g. random, alias_attr, etc.) for activerecord 
+- [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord), [:gem:](https://rubygems.org/gems/props-activerecord) - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
+- [:congratulations:](http://planetruby.github.io/gems/logutils.html) [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord), [:gem:](https://rubygems.org/gems/logutils-activerecord) - another logger addon for activerecord (LogDb, Log Model etc.) 
 
 
 ## Databases
@@ -205,8 +205,11 @@ Documentation
 
 ## Alternatives
 
-- [Sequel](http://sequel.jeremyevans.net) - [:octocat:](https://github.com/jeremyevans/sequel) -  a simple, flexible, and powerful SQL database access toolkit for Ruby
-- [DataMapper](http://datamapper.org) - [:octocat:](https://github.com/datamapper) 
+_More Object-relational (O/R) mapping libraries_
+
+- [Sequel](http://sequel.jeremyevans.net) - [:octocat:](https://github.com/jeremyevans/sequel), [:gem:](https://rubygems.org/gems/sequel) -  a simple, flexible, and powerful SQL database access toolkit for Ruby
+- [DataMapper](http://datamapper.org) - [:octocat:](https://github.com/datamapper), [:gem:](https://rubygems.org/gems/datamapper)
+
 
 ## Meta
 
