@@ -60,6 +60,10 @@ Rails Guides Series
 e.g. by_year, yesterday, before( Date.today )
 - [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
 
+## Attachments
+
+- [Paperclip :octocat:](https://github.com/thoughtbot/paperclip) - easy file attachment management for ActiveRecord
+
 ## Default Values
 
 - [default_value_for :octocat:](https://github.com/FooBarWidget/default_value_for) - a way to specify default values for ActiveRecord models
