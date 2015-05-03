@@ -2,6 +2,8 @@
 
 A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
 
+Note: :congratulations: stands Gem of the Week in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: for the GitHub page.
+
 ---
 
 [ANNOUNCEMENT] Looking for awesome Ruby events (meetups, conferences, camps, etc.) from around the world)? See the [Awesome Events List @ Planet Ruby](https://github.com/planetruby/awesome-events). 
