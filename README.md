@@ -15,7 +15,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 ## ActiveRecord
 
-- [ActiveRecord Gem :gem:](https://rubygems.org/gems/activerecord) -  [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
+- [ActiveRecord Gem :gem:](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
    - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) -- 2013: 4.0.0 (Jun/25) -- 2012: 3.2.0 (Jan/20) --  2011: 3.1.0 (Aug/31) -- 2010: 3.0.0 (Aug/29) --  2007: 2.0.0 (Dec/6) -- 2004: 1.0.0 (Oct/25)
 
 Documentation
@@ -40,35 +40,35 @@ Rails Guides Series
 
 ## ActsAsList - Sortable
 
-- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - [:gem:](https://rubygems.org/gems/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
-- [ranked-model :octocat:](https://github.com/mixonic/ranked-model) - [:gem:](https://rubygems.org/gems/ranked-model)
+- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list), [:gem:](https://rubygems.org/gems/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+- [ranked-model :octocat:](https://github.com/mixonic/ranked-model), [:gem:](https://rubygems.org/gems/ranked-model)
 
 ## ActsAsTree - Hierarchy / Nested
 
-- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - [:gem:](https://rubygems.org/gems/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
-- [Ancestry :octocat:](https://github.com/stefankroes/ancestry) - [:gem:](https://rubygems.org/gems/ancestry) - organise ActiveRecord model into a tree structure
+- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree), [:gem:](https://rubygems.org/gems/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
+- [Ancestry :octocat:](https://github.com/stefankroes/ancestry),  [:gem:](https://rubygems.org/gems/ancestry) - organise ActiveRecord model into a tree structure
 
 
 ## Tags & Taggings, Categories & Categorizations
 
-- [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
-- [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
-- [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+- [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on), [:gem:](https://rubygems.org/gems/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
+- [TagUtils :octocat:](https://github.com/rubylibs/tagutils), [:gem:](https://rubygems.org/gems/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
+- [Gutentag :octocat:](https://github.com/pat/gutentag), [:gem:](https://rubygems.org/gems/gutentag) - a good, simple, solid tagging extension for ActiveRecord
 
 ## Date / Time
 
-- [ByStar :octocat:](https://github.com/radar/by_star) - easily and reliably query ActiveRecord objects based on time e.g. by_year, yesterday, before( Date.today )
-- [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
-- [Groupdate :octocat:](https://github.com/ankane/groupdate) - easily and reliably group ActiveRecord objects based on time e.g. day, week, hour of the day and more; has time zone support
+- [ByStar :octocat:](https://github.com/radar/by_star), [:gem:](https://rubygems.org/gems/by_star) - easily and reliably query ActiveRecord objects based on time e.g. by_year, yesterday, before( Date.today )
+- [Season :octocat:](https://github.com/joaodiogocosta/season), [:gem:](https://rubygems.org/gems/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
+- [Groupdate :octocat:](https://github.com/ankane/groupdate), [:gem:](https://rubygems.org/gems/groupdate) - easily and reliably group ActiveRecord objects based on time e.g. day, week, hour of the day and more; has time zone support
 
 
 ## Attachments
 
-- [Paperclip :octocat:](https://github.com/thoughtbot/paperclip) - easy file attachment management for ActiveRecord
+- [Paperclip :octocat:](https://github.com/thoughtbot/paperclip), [:gem:](https://rubygems.org/gems/paperclip) - easy file attachment management for ActiveRecord
 
 ## Default Values
 
-- [default_value_for :octocat:](https://github.com/FooBarWidget/default_value_for) - a way to specify default values for ActiveRecord models
+- [default_value_for :octocat:](https://github.com/FooBarWidget/default_value_for), [:gem:](https://rubygems.org/gems/default_value_for) - a way to specify default values for ActiveRecord models
 
 ## Validations
 
