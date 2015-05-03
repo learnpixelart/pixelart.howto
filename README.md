@@ -13,7 +13,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 
 ## ActiveRecord
 
-- [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
+- [ActiveRecord Gem](https://rubygems.org/gems/activerecord) -  [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
    - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) -- 2013: 4.0.0 (Jun/25) -- 2012: 3.2.0 (Jan/20) --  2011: 3.1.0 (Aug/31) -- 2010: 3.0.0 (Aug/29) --  2007: 2.0.0 (Dec/6) -- 2004: 1.0.0 (Oct/25)
 
 Documentation
@@ -55,6 +55,9 @@ Rails Guides Series
 
 ## Date / Time
 
+
+- [ByStar :octocat:](https://github.com/radar/by_star) - easily and reliably query ActiveRecord objects based on time
+e.g. by_year, yesterday, before( Date.today )
 - [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
 
 ## Default Values
@@ -116,7 +119,7 @@ Rails Guides Series
 
 ## Arel / A Relational Algebra / Arel Really Exasperates Logicians
 
-- [Arel Gem](https://rubygems.org/gems/arel), [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
+- [Arel Gem](https://rubygems.org/gems/arel) - [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
 
 Documentation
 
@@ -130,7 +133,7 @@ Documentation
 
 ## Database Admin / Scaffold
 
-- [ActiveAdmin](http://activeadmin.info), [:octocat:](https://github.com/activeadmin)
+- [ActiveAdmin](http://activeadmin.info) - [:octocat:](https://github.com/activeadmin)
 - [RailsAdmin :octocat:](https://github.com/sferik/rails_admin)
 - [Typus :octocat:](https://github.com/typus) - admin panels and more
 - [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby) 
@@ -184,8 +187,8 @@ Documentation
 
 ## Alternatives
 
-- [Sequel](http://sequel.jeremyevans.net), [:octocat:](https://github.com/jeremyevans/sequel) -  a simple, flexible, and powerful SQL database access toolkit for Ruby
-- [DataMapper](http://datamapper.org), [:octocat:](https://github.com/datamapper) 
+- [Sequel](http://sequel.jeremyevans.net) - [:octocat:](https://github.com/jeremyevans/sequel) -  a simple, flexible, and powerful SQL database access toolkit for Ruby
+- [DataMapper](http://datamapper.org) - [:octocat:](https://github.com/datamapper) 
 
 ## Meta
 
