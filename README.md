@@ -38,13 +38,13 @@ Rails Guides Series
 
 ## ActsAsList - Sortable
 
-- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
-- [ranked-model :octocat:](https://github.com/mixonic/ranked-model)
+- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list) - [:gem:](https://rubygems.org/gems/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+- [ranked-model :octocat:](https://github.com/mixonic/ranked-model) - [:gem:](https://rubygems.org/gems/ranked-model)
 
 ## ActsAsTree - Hierarchy / Nested
 
-- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
-- [Ancestry :octocat:](https://github.com/stefankroes/ancestry) - organise ActiveRecord model into a tree structure
+- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree) - [:gem:](https://rubygems.org/gems/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
+- [Ancestry :octocat:](https://github.com/stefankroes/ancestry) - [:gem:](https://rubygems.org/gems/ancestry) - organise ActiveRecord model into a tree structure
 
 
 ## Tags & Taggings, Categories & Categorizations
