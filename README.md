@@ -14,13 +14,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
-   - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8)
-   - 2013: 4.0.0 (Jun/25)
-   - 2012: 3.2.0 (Jan/20)
-   - 2011: 3.1.0 (Aug/31)
-   - 2010: 3.0.0 (Aug/29) 
-   - 2007: 2.0.0 (Dec/6)
-   - 2004: 1.0.0 (Oct/25)
+   - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) | 2013: 4.0.0 (Jun/25) | 2012: 3.2.0 (Jan/20) |  2011: 3.1.0 (Aug/31) | 2010: 3.0.0 (Aug/29) |  2007: 2.0.0 (Dec/6) | 2004: 1.0.0 (Oct/25)
 
 Documentation
 
@@ -58,6 +52,10 @@ Rails Guides Series
 - [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
 - [TagUtils :octocat:](https://github.com/rubylibs/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
 - [Gutentag :octocat:](https://github.com/pat/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+
+## Date / Time
+
+- [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
 
 
 ## Validations
