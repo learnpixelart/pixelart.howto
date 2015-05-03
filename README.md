@@ -105,11 +105,23 @@ e.g. by_year, yesterday, before( Date.today )
 - [AASM :octocat:](https://github.com/aasm/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
 - [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
 
+## Search
+
+- [Ransack :octocat:](https://github.com/activerecord-hackery/ransack) - object-based searching
+
+##  Query Builder
+
+- [Squeel :octocat:](https://github.com/activerecord-hackery/squeel) - lets you write your Active Record queries with fewer strings, and more Ruby
+
 ## Multi Tenancy
 
 - [ActsAsTenant :octocat:](https://github.com/ErwinM/acts_as_tenant) - easy multi-tenancy in a shared database setup
 - [Apartment :octocat:](https://github.com/influitive/apartment) - database multi-tenancy for ActiveRecord
 
+## Performance / Profiling / Debugging
+
+- [Bullet :octocat:](https://github.com/flyerhzm/bullet) - help to kill N+1 queries and unused eager loading
+- [marginalia :octocat:](https://github.com/basecamp/marginalia) - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
 
 ## Bulk / Batch Importer
 
