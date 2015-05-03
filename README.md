@@ -55,12 +55,10 @@ Rails Guides Series
 
 ## Date / Time
 
-
-- [ByStar :octocat:](https://github.com/radar/by_star) - easily and reliably query ActiveRecord objects based on time
-e.g. by_year, yesterday, before( Date.today )
+- [ByStar :octocat:](https://github.com/radar/by_star) - easily and reliably query ActiveRecord objects based on time e.g. by_year, yesterday, before( Date.today )
 - [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
-- [Groupdate :octocat:](https://github.com/ankane/groupdate) - easily and reliably group ActiveRecord objects based on time
-e.g. day, week, hour of the day and more. Has time zone support.
+- [Groupdate :octocat:](https://github.com/ankane/groupdate) - easily and reliably group ActiveRecord objects based on time e.g. day, week, hour of the day and more; has time zone support
+
 
 ## Attachments
 
