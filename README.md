@@ -14,7 +14,7 @@ Contributions welcome. Anything missing? Send in a pull request. Thanks.
 ## ActiveRecord
 
 - [ActiveRecord Gem](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
-   - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) | 2013: 4.0.0 (Jun/25) | 2012: 3.2.0 (Jan/20) |  2011: 3.1.0 (Aug/31) | 2010: 3.0.0 (Aug/29) |  2007: 2.0.0 (Dec/6) | 2004: 1.0.0 (Oct/25)
+   - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) -- 2013: 4.0.0 (Jun/25) -- 2012: 3.2.0 (Jan/20) --  2011: 3.1.0 (Aug/31) -- 2010: 3.0.0 (Aug/29) --  2007: 2.0.0 (Dec/6) -- 2004: 1.0.0 (Oct/25)
 
 Documentation
 
@@ -57,10 +57,14 @@ Rails Guides Series
 
 - [Season :octocat:](https://github.com/joaodiogocosta/season) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
 
+## Default Values
+
+- [default_value_for :octocat:](https://github.com/FooBarWidget/default_value_for) - a way to specify default values for ActiveRecord models
 
 ## Validations
 
 - [ActiveValidators :octocat:](https://github.com/franckverrot/activevalidators) - a collection of off-the-shelf ActiveRecord validations 
+- [validates_email_format_of :octocat:](https://github.com/validates-email-format-of/validates_email_format_of) - validate e-mail addresses against RFC 2822 and RFC 3696
 
 
 ## Pagination
