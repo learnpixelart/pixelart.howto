@@ -63,6 +63,7 @@ Rails Guides Series
 ## Validations
 
 - [ActiveValidators :octocat:](https://github.com/franckverrot/activevalidators) - a collection of off-the-shelf ActiveRecord validations 
+- [validates_email_format_of] (https://github.com/validates-email-format-of/validates_email_format_of) - Validate e-mail addresses against RFC 2822 and RFC 3696
 
 
 ## Pagination
@@ -163,6 +164,7 @@ Documentation
 - [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils) - utilities (e.g. random, alias_attr, etc.) for activerecord 
 - [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord) - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
 - [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord) - another logger addon for activerecord (LogDb, Log Model etc.) 
+- [default_value_for] (https://github.com/FooBarWidget/default_value_for) - a way to specify default values for ActiveRecord models
 
 
 ## Databases
