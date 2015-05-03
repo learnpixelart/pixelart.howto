@@ -2,7 +2,7 @@
 
 A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
 
-Note: :congratulations: stands Gem of the Week in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: for the GitHub page.
+Note: :congratulations: stands for the Gem of the Week article in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: stands for the GitHub page.
 
 ---
 
@@ -105,7 +105,7 @@ Rails Guides Series
 ## ActsAsStateMachine - State Machines 
 
 - [AASM :octocat:](https://github.com/aasm/aasm) - formerly acts_as_state_machine; state machines for Ruby and ActiveRecord
-- [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
+- [:congratulations:](http://planetruby.github.io/gems/state-machine.html) [State Machines :octocat:](https://github.com/state-machines/state_machines-activerecord) - state machines for ActiveRecord
 
 ## Search
 
@@ -137,7 +137,7 @@ Rails Guides Series
 
 ## Arel / A Relational Algebra / Arel Really Exasperates Logicians
 
-- [Arel Gem](https://rubygems.org/gems/arel) - [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
+- [Arel Gem :gem:](https://rubygems.org/gems/arel) - [:octocat:](https://github.com/rails/arel) - a SQL AST manager for Ruby; simplifies the generation of complex SQL queries and adapts to various SQL flavors
 
 Documentation
 
@@ -159,15 +159,15 @@ Documentation
 
 ## Text-to-SQL
 
-- [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
+- [:congratulations:](http://planetruby.github.io/gems/datapak.html) [Datapak :octocat:](https://github.com/textkit/datapak) -  a library to work with tabular data packages (*.csv files w/ datapackage.json) in SQL via ActiveRecord
 - [data_miner :octocat:](https://github.com/seamusabshere/data_miner) - download, pull out of a ZIP/TAR/GZ/BZ2 archive, parse, correct, and import XLS, ODS, XML, CSV, HTML, etc. into your ActiveRecord models 
 
 
 ## Schema Documentation / Annotations / Diagrams 
 
-- [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models) - adds annotations (comments about the table schema) to your models
-- [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
-- [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
+- [:congratulations:](http://planetruby.github.io/gems/annotate.html) [Annotate / AnnotateModels :octocat:](https://github.com/ctran/annotate_models) - adds annotations (comments about the table schema) to your models
+- [:congratulations:](http://planetruby.github.io/gems/rails-erd.html) [rails-erd :octocat:](https://github.com/voormedia/rails-erd) - generate entity-relationship diagrams (ERD) for your activerecord models
+- [:congratulations:](http://planetruby.github.io/gems/schemadoc.html) [schemadoc :octocat:](https://github.com/rubylibs/schemadoc) - auto-generate your database schema docs for tables, columns, etc.
 
 
 ## Schema Extensions
