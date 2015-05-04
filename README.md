@@ -115,9 +115,11 @@ Rails Guides Series
 
 - [Squeel :octocat:](https://github.com/activerecord-hackery/squeel), [:gem:](https://rubygems.org/gems/squeel) - lets you write your Active Record queries with fewer strings, and more Ruby
 
+
 ## Geocoding
 
-- [Geocoder :octocat:](https://github.com/alexreisner/geocoder) - Lookup latitude and longitude based on an address defined in your model or an IP address.  Search for nearby locations.
+- [Geocoder :octocat:](https://github.com/alexreisner/geocoder), [:gem:](https://rubygems.org/gems/geocoder) - lookup latitude/longitude based on an address defined in your model or an IP address; search for nearby locations
+
 
 ## Multi Tenancy
 
