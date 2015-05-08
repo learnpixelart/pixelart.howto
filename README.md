@@ -192,6 +192,7 @@ Documentation
 - [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils), [:gem:](https://rubygems.org/gems/activerecord-utils) - utilities (e.g. random, alias_attr, etc.) for activerecord 
 - [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord), [:gem:](https://rubygems.org/gems/props-activerecord) - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
 - [:congratulations:](http://planetruby.github.io/gems/logutils.html) [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord), [:gem:](https://rubygems.org/gems/logutils-activerecord) - another logger addon for activerecord (LogDb, Log Model etc.) 
+- [SeedMigration :octocat:] (https://github.com/harrystech/seed_migration) [:gem:](https://rubygems.org/gems/seed_migration/) - a way to manage changes to seed data in a rails app in a similar way to how schema migrations are handled.
 
 
 ## Databases
