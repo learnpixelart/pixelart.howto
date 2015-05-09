@@ -131,9 +131,9 @@ Rails Guides Series
 - [Bullet :octocat:](https://github.com/flyerhzm/bullet), [:gem:](https://rubygems.org/gems/apartment) - help to kill N+1 queries and unused eager loading
 - [marginalia :octocat:](https://github.com/basecamp/marginalia), [:gem:](https://rubygems.org/gems/marginalia) - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
 
-## Seeds
+## Seeds / Data Migrations
 
-- [SeedMigration :octocat:](https://github.com/harrystech/seed_migration),  [:gem:](https://rubygems.org/gems/seed_migration/) - a way to manage changes to seed data similar way to how schema migrations are handled
+- [SeedMigration :octocat:](https://github.com/harrystech/seed_migration),  [:gem:](https://rubygems.org/gems/seed_migration) - a way to manage changes to seed data similar way to how schema migrations are handled
 
 
 ## Bulk / Batch Importer
