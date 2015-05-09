@@ -131,6 +131,11 @@ Rails Guides Series
 - [Bullet :octocat:](https://github.com/flyerhzm/bullet), [:gem:](https://rubygems.org/gems/apartment) - help to kill N+1 queries and unused eager loading
 - [marginalia :octocat:](https://github.com/basecamp/marginalia), [:gem:](https://rubygems.org/gems/marginalia) - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
 
+## Seeds
+
+- [SeedMigration :octocat:](https://github.com/harrystech/seed_migration),  [:gem:](https://rubygems.org/gems/seed_migration/) - a way to manage changes to seed data similar way to how schema migrations are handled
+
+
 ## Bulk / Batch Importer
 
 - [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import), [:gem:](https://rubygems.org/gems/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
@@ -192,7 +197,6 @@ Documentation
 - [activerecord-utils :octocat:](https://github.com/rubylibs/activerecord-utils), [:gem:](https://rubygems.org/gems/activerecord-utils) - utilities (e.g. random, alias_attr, etc.) for activerecord 
 - [props-activerecord :octocat:](https://github.com/rubylibs/props-activerecord), [:gem:](https://rubygems.org/gems/props-activerecord) - manage setting hierachies addon for activerecord (ConfDb, Props Model, etc.)
 - [:congratulations:](http://planetruby.github.io/gems/logutils.html) [logutils-activerecord :octocat:](https://github.com/rubylibs/logutils-activerecord), [:gem:](https://rubygems.org/gems/logutils-activerecord) - another logger addon for activerecord (LogDb, Log Model etc.) 
-- [SeedMigration :octocat:] (https://github.com/harrystech/seed_migration) [:gem:](https://rubygems.org/gems/seed_migration/) - a way to manage changes to seed data in a rails app in a similar way to how schema migrations are handled.
 
 
 ## Databases
