@@ -129,6 +129,7 @@ Rails Guides Series
 ## Performance / Profiling / Debugging
 
 - [Bullet :octocat:](https://github.com/flyerhzm/bullet), [:gem:](https://rubygems.org/gems/apartment) - help to kill N+1 queries and unused eager loading
+- [Goldiloader :octocat:](https://github.com/salsify/goldiloader), [:gem:](https://rubygems.org/gems/goldiloader) - automatically eager loads associations as they're traversed
 - [marginalia :octocat:](https://github.com/basecamp/marginalia), [:gem:](https://rubygems.org/gems/marginalia) - attach comments to your ActiveRecord queries; helps when searching log files for queries, and seeing where slow queries came from
 
 ## Seeds / Data Migrations
