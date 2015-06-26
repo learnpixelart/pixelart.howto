@@ -1,4 +1,13 @@
-# awesome-activerecord
+Awesome Series @ Planet Ruby
+
+[Rubies (Virtual Machines, Compilers, ...)](https://github.com/planetruby/awesome-rubies) • 
+[ActiveRecord](https://github.com/planetruby/awesome-activerecord)  •
+[Webframeworks (Micro, Macro, APIs, ...)](https://github.com/planetruby/awesome-webframeworks) •
+[Events (Conferences, Camps, Meetups, ...)](https://github.com/planetruby/awesome-events) •
+[Blogs (News, Opinions, Podcasts, ...)](https://github.com/planetruby/awesome-blogs)
+
+
+# ActiveRecord
 
 A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
 
@@ -6,7 +15,7 @@ Note: :congratulations: stands for the Gem of the Week article in the [Gem of th
 
 ---
 
-[ANNOUNCEMENT] Looking for awesome Ruby events (meetups, conferences, camps, etc.) from around the world)? See the [Awesome Events List @ Planet Ruby](https://github.com/planetruby/awesome-events). 
+[ANNOUNCEMENT] Looking for awesome world data (countries, cities, flags, languages, currencies, etc.)? See the [Awesome World List @ Planet Open Data](https://github.com/planetopendata/awesome-world). 
 
 ---
 
