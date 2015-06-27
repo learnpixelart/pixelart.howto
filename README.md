@@ -232,6 +232,11 @@ _More Object-relational (O/R) mapping libraries_
 - [DataMapper](http://datamapper.org) - [:octocat:](https://github.com/datamapper), [:gem:](https://rubygems.org/gems/datamapper)
 
 
+## Thanks
+
+Jacob Burenstam • Ian Irving • Scott P • Joel Turkel
+
+
 ## Meta
 
 **License**
