@@ -11,16 +11,15 @@ Awesome Series @ Planet Ruby
 
 A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guides, etc.
 
-Note: :congratulations: stands for the Gem of the Week article in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: stands for the GitHub page.
-
 ---
 
 [ANNOUNCEMENT] Looking for awesome world data (countries, cities, flags, languages, currencies, etc.)? See the [Awesome World List @ Planet Open Data](https://github.com/planetopendata/awesome-world). 
 
 ---
 
-Contributions welcome. Anything missing? Send in a pull request. Thanks.
+#### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
 
+Note: :congratulations: stands for the Gem of the Week article in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: stands for the GitHub page.
 
 ## ActiveRecord
 
