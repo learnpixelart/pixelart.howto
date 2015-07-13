@@ -32,7 +32,7 @@ Note: :congratulations: stands for the Gem of the Week article in the [Gem of th
 
 ## ActiveRecord HQ
 
-- **ActiveRecord Gem** (gem: [activerecord](https://rubygems.org/gems/activerecord), github: [rails/rails/activerecord](https://github.com/rails/rails/tree/master/activerecord))
+- **ActiveRecord** (gem: [activerecord](https://rubygems.org/gems/activerecord), github: [rails/rails/activerecord](https://github.com/rails/rails/tree/master/activerecord))
    - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) ++ 2013: 4.0.0 (Jun/25) ++ 2012: 3.2.0 (Jan/20) ++  2011: 3.1.0 (Aug/31) ++ 2010: 3.0.0 (Aug/29) ++  2007: 2.0.0 (Dec/6) ++ 2004: 1.0.0 (Oct/25)
 
 Documentation
@@ -57,21 +57,21 @@ Rails Guides Series
 
 ## ActsAsList - Sortable
 
-- **ActsAsList** (github: [swanandp/acts_as_list](https://github.com/swanandp/acts_as_list), gem: [acts_as_list](https://rubygems.org/gems/acts_as_list)) - extension provides the capabilities for sorting and reordering a number of objects in a list 
-- **ranked-model** (github: [mixonic/ranked-model](https://github.com/mixonic/ranked-model), gem: [ranked-model](https://rubygems.org/gems/ranked-model))
+- **ActsAsList** (gem: [acts_as_list](https://rubygems.org/gems/acts_as_list), github: [swanandp/acts_as_list](https://github.com/swanandp/acts_as_list)) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+- **ranked-model** (gem: [ranked-model](https://rubygems.org/gems/ranked-model), github: [mixonic/ranked-model](https://github.com/mixonic/ranked-model))
 
 
 ## ActsAsTree - Hierarchy / Nested
 
-- **ActsAsTree** (github: [amerine/acts_as_tree](https://github.com/amerine/acts_as_tree), gem:  [acts_as_tree](https://rubygems.org/gems/acts_as_tree)) - extends ActiveRecord to add support for organizing items into parent–children relationships
-- **Ancestry** (github: [stefankroes/ancestry](https://github.com/stefankroes/ancestry), gem:   [ancestry](https://rubygems.org/gems/ancestry)) - organise ActiveRecord model into a tree structure
+- **ActsAsTree** (gem: [acts_as_tree](https://rubygems.org/gems/acts_as_tree), github: [amerine/acts_as_tree](https://github.com/amerine/acts_as_tree)) - extends ActiveRecord to add support for organizing items into parent–children relationships
+- **Ancestry** (gem: [ancestry](https://rubygems.org/gems/ancestry), github: [stefankroes/ancestry](https://github.com/stefankroes/ancestry)) - organise ActiveRecord model into a tree structure
 
 
 ## ActsAsTaggable - Tags & Taggings, Categories & Categorizations
 
-- **ActsAsTaggableOn**  (github: [mbleigh/acts-as-taggable-on](https://github.com/mbleigh/acts-as-taggable-on), gem: [acts-as-taggable-on](https://rubygems.org/gems/acts-as-taggable-on)) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
-- **TagUtils** (github: [rubylibs/tagutils](https://github.com/rubylibs/tagutils), gem:  [tagutils](https://rubygems.org/gems/tagutils)) -  tag utilities (tag, taggings, tag list, etc.) 
-- **Gutentag** (github: [pat/gutentag](https://github.com/pat/gutentag), gem:  [gutentag](https://rubygems.org/gems/gutentag)) - a good, simple, solid tagging extension for ActiveRecord
+- **ActsAsTaggableOn**  (gem: [acts-as-taggable-on](https://rubygems.org/gems/acts-as-taggable-on), github: [mbleigh/acts-as-taggable-on](https://github.com/mbleigh/acts-as-taggable-on)) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
+- **TagUtils** (gem: [tagutils](https://rubygems.org/gems/tagutils), github: [rubylibs/tagutils](https://github.com/rubylibs/tagutils)) -  tag utilities (tag, taggings, tag list, etc.) 
+- **Gutentag** (gem: [gutentag](https://rubygems.org/gems/gutentag), github: [pat/gutentag](https://github.com/pat/gutentag)) - a good, simple, solid tagging extension for ActiveRecord
 
 
 ## Date / Time
