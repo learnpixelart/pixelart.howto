@@ -19,11 +19,20 @@ A collection of awesome ActiveRecord goodies, libraries, tools, extensions, guid
 
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
 
-Note: :congratulations: stands for the Gem of the Week article in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems), :gem: stands for the RubyGems page and :octocat: stands for the GitHub page.
+Note: :congratulations: stands for the Gem of the Week article in the [Gem of the Week Series @ Planet Ruby](http://planetruby.github.io/gems).
 
-## ActiveRecord
 
-- [ActiveRecord Gem :gem:](https://rubygems.org/gems/activerecord), [:octocat:](https://github.com/rails/rails/tree/master/activerecord)
+[ActsAsList     - Sortable](#) •
+[ActsAsTree     - Hierarchy / Nested](#) •
+[ActsAsTaggable - Tags & Taggings, Categories & Categorizations](#) •
+[Date / Time](#)
+
+<!-- todo: add all categories; fix anchors -->
+
+
+## ActiveRecord HQ
+
+- **ActiveRecord Gem** (gem: [activerecord](https://rubygems.org/gems/activerecord), github: [rails/rails/activerecord](https://github.com/rails/rails/tree/master/activerecord))
    - 2014: 4.2.0 (Dec/20); 4.1.0 (Apr/8) -- 2013: 4.0.0 (Jun/25) -- 2012: 3.2.0 (Jan/20) --  2011: 3.1.0 (Aug/31) -- 2010: 3.0.0 (Aug/29) --  2007: 2.0.0 (Dec/6) -- 2004: 1.0.0 (Oct/25)
 
 Documentation
@@ -48,20 +57,22 @@ Rails Guides Series
 
 ## ActsAsList - Sortable
 
-- [ActsAsList :octocat:](https://github.com/swanandp/acts_as_list), [:gem:](https://rubygems.org/gems/acts_as_list) - extension provides the capabilities for sorting and reordering a number of objects in a list 
-- [ranked-model :octocat:](https://github.com/mixonic/ranked-model), [:gem:](https://rubygems.org/gems/ranked-model)
+- **ActsAsList** (github: [swanandp/acts_as_list](https://github.com/swanandp/acts_as_list), gem: [acts_as_list](https://rubygems.org/gems/acts_as_list)) - extension provides the capabilities for sorting and reordering a number of objects in a list 
+- **ranked-model** (github: [mixonic/ranked-model](https://github.com/mixonic/ranked-model), gem: [ranked-model](https://rubygems.org/gems/ranked-model))
+
 
 ## ActsAsTree - Hierarchy / Nested
 
-- [ActsAsTree :octocat:](https://github.com/amerine/acts_as_tree), [:gem:](https://rubygems.org/gems/acts_as_tree) - extends ActiveRecord to add support for organizing items into parent–children relationships
-- [Ancestry :octocat:](https://github.com/stefankroes/ancestry),  [:gem:](https://rubygems.org/gems/ancestry) - organise ActiveRecord model into a tree structure
+- **ActsAsTree** (github: [amerine/acts_as_tree](https://github.com/amerine/acts_as_tree), gem:  [acts_as_tree](https://rubygems.org/gems/acts_as_tree)) - extends ActiveRecord to add support for organizing items into parent–children relationships
+- **Ancestry** (github: [stefankroes/ancestry](https://github.com/stefankroes/ancestry), gem:   [ancestry](https://rubygems.org/gems/ancestry)) - organise ActiveRecord model into a tree structure
 
 
-## Tags & Taggings, Categories & Categorizations
+## ActsAsTaggable - Tags & Taggings, Categories & Categorizations
 
-- [ActsAsTaggableOn :octocat:](https://github.com/mbleigh/acts-as-taggable-on), [:gem:](https://rubygems.org/gems/acts-as-taggable-on) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
-- [TagUtils :octocat:](https://github.com/rubylibs/tagutils), [:gem:](https://rubygems.org/gems/tagutils) -  tag utilities (tag, taggings, tag list, etc.) 
-- [Gutentag :octocat:](https://github.com/pat/gutentag), [:gem:](https://rubygems.org/gems/gutentag) - a good, simple, solid tagging extension for ActiveRecord
+- **ActsAsTaggableOn**  (github: [mbleigh/acts-as-taggable-on](https://github.com/mbleigh/acts-as-taggable-on), gem: [acts-as-taggable-on](https://rubygems.org/gems/acts-as-taggable-on)) - a tagging plugin for ActiveRecord that allows for custom tagging along dynamic contexts
+- **TagUtils** (github: [rubylibs/tagutils](https://github.com/rubylibs/tagutils), gem:  [tagutils](https://rubygems.org/gems/tagutils)) -  tag utilities (tag, taggings, tag list, etc.) 
+- **Gutentag** (github: [pat/gutentag](https://github.com/pat/gutentag), gem:  [gutentag](https://rubygems.org/gems/gutentag)) - a good, simple, solid tagging extension for ActiveRecord
+
 
 ## Date / Time
 
@@ -74,9 +85,11 @@ Rails Guides Series
 
 - [Paperclip :octocat:](https://github.com/thoughtbot/paperclip), [:gem:](https://rubygems.org/gems/paperclip) - easy file attachment management for ActiveRecord
 
+
 ## Default Values
 
 - [default_value_for :octocat:](https://github.com/FooBarWidget/default_value_for), [:gem:](https://rubygems.org/gems/default_value_for) - a way to specify default values for ActiveRecord models
+
 
 ## Validations
 
