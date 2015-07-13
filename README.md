@@ -76,32 +76,32 @@ Rails Guides Series
 
 ## Date / Time
 
-- **ByStar** (github: [radar/by_star](https://github.com/radar/by_star), gem: [by_star](https://rubygems.org/gems/by_star)) - easily and reliably query ActiveRecord objects based on time e.g. by_year, yesterday, before( Date.today )
-- **Season** (github [joaodiogocosta/season](https://github.com/joaodiogocosta/season), gem: [season](https://rubygems.org/gems/season)) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
-- **Groupdate** (github: [ankane/groupdate](https://github.com/ankane/groupdate), gem:  [groupdate](https://rubygems.org/gems/groupdate)) - easily and reliably group ActiveRecord objects based on time e.g. day, week, hour of the day and more; has time zone support
+- **ByStar** (gem: [by_star](https://rubygems.org/gems/by_star), github: [radar/by_star](https://github.com/radar/by_star)) - easily and reliably query ActiveRecord objects based on time e.g. by_year, yesterday, before( Date.today )
+- **Season** (gem: [season](https://rubygems.org/gems/season), github [joaodiogocosta/season](https://github.com/joaodiogocosta/season)) - automatically creates scopes for ActiveRecord date, datetime and timestamp attributes
+- **Groupdate** (gem: [groupdate](https://rubygems.org/gems/groupdate), github: [ankane/groupdate](https://github.com/ankane/groupdate)) - easily and reliably group ActiveRecord objects based on time e.g. day, week, hour of the day and more; has time zone support
 
 
 ## Attachments
 
-- **Paperclip** (github: [thoughtbot/paperclip](https://github.com/thoughtbot/paperclip), gem: [paperclip](https://rubygems.org/gems/paperclip)) - easy file attachment management for ActiveRecord
+- **Paperclip** (gem: [paperclip](https://rubygems.org/gems/paperclip), github: [thoughtbot/paperclip](https://github.com/thoughtbot/paperclip)) - easy file attachment management for ActiveRecord
 
 
 ## Default Values
 
-- **default_value_for** (github: [FooBarWidget/default_value_for](https://github.com/FooBarWidget/default_value_for), gem:  [default_value_for](https://rubygems.org/gems/default_value_for)) - a way to specify default values for ActiveRecord models
+- **default_value_for** (gem: [default_value_for](https://rubygems.org/gems/default_value_for), github: [FooBarWidget/default_value_for](https://github.com/FooBarWidget/default_value_for)) - a way to specify default values for ActiveRecord models
 
 
 ## Validations
 
-- **ActiveValidators** (github: [franckverrot/activevalidators](https://github.com/franckverrot/activevalidators), gem:  [activevalidators](https://rubygems.org/gems/activevalidators)) - a collection of off-the-shelf ActiveRecord validations 
-- **validates_email_format_of** (github: [validates-email-format-of/validates_email_format_of ](https://github.com/validates-email-format-of/validates_email_format_of), gem:  [validates_email_format_of](https://rubygems.org/gems/validates_email_format_of)) - validate e-mail addresses against RFC 2822 and RFC 3696
+- **ActiveValidators** (gem: [activevalidators](https://rubygems.org/gems/activevalidators), github: [franckverrot/activevalidators](https://github.com/franckverrot/activevalidators)) - a collection of off-the-shelf ActiveRecord validations 
+- **validates_email_format_of** (gem: [validates_email_format_of](https://rubygems.org/gems/validates_email_format_of), github: [validates-email-format-of/validates_email_format_of ](https://github.com/validates-email-format-of/validates_email_format_of)) - validate e-mail addresses against RFC 2822 and RFC 3696
 
 
 ## Pagination
 
-- **Kaminari** (github: [amatsuda/kaminari](https://github.com/amatsuda/kaminari), gem:  [kaminari](https://rubygems.org/gems/kaminari)) - a scope and engine based, clean, powerful, customizable and sophisticated paginator
-- **will_paginate** (github: [mislav/will_paginate](https://github.com/mislav/will_paginate), gem:  [will_paginate](https://rubygems.org/gems/will_paginate)) - a pagination library
-- **order_query** (github: [glebm/order_query](https://github.com/glebm/order_query), gem:  [order_query](https://rubygems.org/gems/order_query)) - uses no offset; finds the next or previous record(s) relative to the current one efficiently using keyset pagination, e.g. for navigation or infinite scroll
+- **Kaminari** (gem: [kaminari](https://rubygems.org/gems/kaminari), github: [amatsuda/kaminari](https://github.com/amatsuda/kaminari)) - a scope and engine based, clean, powerful, customizable and sophisticated paginator
+- **will_paginate** (gem: [will_paginate](https://rubygems.org/gems/will_paginate), github: [mislav/will_paginate](https://github.com/mislav/will_paginate)) - a pagination library
+- **order_query** (gem: [order_query](https://rubygems.org/gems/order_query), github: [glebm/order_query](https://github.com/glebm/order_query)) - uses no offset; finds the next or previous record(s) relative to the current one efficiently using keyset pagination, e.g. for navigation or infinite scroll
 
 
 ## ActsAsVersioned - Versioning / Auditing
