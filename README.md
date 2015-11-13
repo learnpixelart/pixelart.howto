@@ -189,7 +189,8 @@ Documentation
 - [RailsAdmin :octocat:](https://github.com/sferik/rails_admin), [:gem:](https://rubygems.org/gems/rails_admin)
 - [Typus :octocat:](https://github.com/typus), [:gem:](https://rubygems.org/gems/typus) - admin panels and more
 - [Upmin Admin :octocat:](https://github.com/upmin/upmin-admin-ruby), [:gem:](https://rubygems.org/gems/upmin-admin) 
-
+- [Administrate :octocat:](https://github.com/thoughtbot/administrate), [:gem:](https://rubygems.org/gems/administrate)
+- [Godmin :octocat:](https://github.com/varvet/godmin), [:gem:](https://rubygems.org/gems/godmin)
 
 ## Text-to-SQL
 
