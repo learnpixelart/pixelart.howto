@@ -147,6 +147,7 @@ Rails Guides Series
 
 - [ActsAsTenant :octocat:](https://github.com/ErwinM/acts_as_tenant), [:gem:](https://rubygems.org/gems/acts_as_tenant) - easy multi-tenancy in a shared database setup
 - [Apartment :octocat:](https://github.com/influitive/apartment), [:gem:](https://rubygems.org/gems/apartment) - database multi-tenancy for ActiveRecord
+ - [ActiveRecord Shards](https://github.com/zendesk/active_record_shards), [:gem:](https://rubygems.org/gems/active_record_shards) - sharded database and slaves
 
 ## Performance / Profiling / Debugging
 
