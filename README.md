@@ -136,6 +136,7 @@ Rails Guides Series
 
 ##  Query Builder
 
+- [BabySqueel :octocat:](https://github.com/rzane/baby_squeel), [:gem:](https://rubygems.org/gems/baby_squeel) - an expressive query DSL for Active Record 4 and 5
 - [Squeel :octocat:](https://github.com/activerecord-hackery/squeel), [:gem:](https://rubygems.org/gems/squeel) - lets you write your Active Record queries with fewer strings, and more Ruby
 
 
@@ -165,6 +166,7 @@ Rails Guides Series
 
 - [activerecord-import :octocat:](https://github.com/zdennis/activerecord-import), [:gem:](https://rubygems.org/gems/activerecord-import) - activerecord-import is a library for bulk inserting data using ActiveRecord
 - [activerecord-importer :octocat:](https://github.com/rubylibs/activerecord-importer), [:gem:](https://rubygems.org/gems/activerecord-importer) - another simple data importer for activerecord in ruby
+- [bulk_insert :octocat:](https://github.com/jamis/bulk_insert), [:gem:](https://rubygems.org/gems/bulk_insert) - insert lots of rows in a single insert statement
 
 
 ## ActiveRecord and PostgreSQL
