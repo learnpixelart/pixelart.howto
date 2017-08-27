@@ -139,6 +139,9 @@ Rails Guides Series
 - [BabySqueel :octocat:](https://github.com/rzane/baby_squeel), [:gem:](https://rubygems.org/gems/baby_squeel) - an expressive query DSL for Active Record 4 and 5
 - [Squeel :octocat:](https://github.com/activerecord-hackery/squeel), [:gem:](https://rubygems.org/gems/squeel) - lets you write your Active Record queries with fewer strings, and more Ruby
 
+##  Dynamic Attributes
+- [dynabute](https://github.com/Liooo/dynabute), [:gem:](https://rubygems.org/gems/dynabute) - dynamically add attributes on ActiveRecord without hash serialization
+- [dynamic_attributes](https://github.com/moiristo/dynamic_attributes), [:gem"](https://rubygems.org/gems/dynamic_attributes) - lets you dynamically specify attributes on ActiveRecord models
 
 ## Geocoding
 
