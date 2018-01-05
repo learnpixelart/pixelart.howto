@@ -189,7 +189,7 @@ Documentation
 ## Database Browser
 
 - [dbbrowser :octocat:](https://github.com/rubylibs/dbbrowser), [:gem:](https://rubygems.org/gems/dbbrowser) - database browser (connections, schema, tables, records, etc.) as mountable web app 
-- [rails_db :octocat:](https://github.com/igorkasyanchuk/rails_db), [:gem:](https://github.com/igorkasyanchuk/rails_db) - Rails database viewer and SQL Query runner in browser
+- [rails_db :octocat:](https://github.com/igorkasyanchuk/rails_db), [:gem:](https://rubygems.org/gems/rails_db) - Rails database viewer and SQL Query runner in browser
 
 ## Database Admin / Scaffold
 
