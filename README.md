@@ -123,6 +123,7 @@ Rails Guides Series
 - [Immortal :octocat:](https://github.com/teambox/immortal), [:gem:](https://rubygems.org/gems/immortal) - make any ActiveRecord model paranoid by just including Immortal, and instead of being deleted from the database, the object will just marked as deleted with a boolean field in the database 
 - [ActsAsArchive :octocat:](https://github.com/winton/acts_as_archive), [:gem:](https://rubygems.org/gems/acts_as_archive) - don't delete your records, move them to a different table
 - [SoftDeletion :octocat:](https://github.com/grosser/soft_deletion), [:gem:](https://rubygems.org/gems/soft_deletion) - adds a new soft_delete method with callbacks and dependents support
+- [Discard :octocat:](https://github.com/jhawthorn/discard), [:gem:](https://rubygems.org/gems/discard) - "Soft deletes for ActiveRecord done right"
 
 
 ## ActsAsStateMachine - State Machines 
