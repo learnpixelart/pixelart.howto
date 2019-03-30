@@ -76,6 +76,128 @@ Bool(2)               #=> TypeError: cannot convert 2:Fixnum to Bool; method par
 
 
 
+[String](#string)  •
+[Symbol](#symbol)   •
+[Numeric](#numberic)   •
+[Kernel](#kernel)
+
+### String
+
+- Returns `true` if string is one of these values: **t**, **true**, **on**, **y**, **yes**, **1**.
+- Returns `false` if string is one of these values: **f**, **false**, **off**, **n**, **no**, **0**.
+
+For invalid boolean string values `to_b` returns `false` by default.
+See the "Handling Errors" section for more options.
+
+Note: The `Bool.parse` method ignores leading and trailing spaces and letter cases.
+
+```ruby
+'1'.to_b       #=> true
+'t'.to_b       #=> true
+'T'.to_b       #=> true
+'true'.to_b    #=> true
+'TRUE'.to_b    #=> true
+'on'.to_b      #=> true
+'ON'.to_b      #=> true
+'y'.to_b       #=> true
+'yes'.to_b     #=> true
+'YES'.to_b     #=> true
+
+' 1 '.to_b     #=> true
+' t '.to_b     #=> true
+' T '.to_b     #=> true
+' true '.to_b  #=> true
+' TRUE '.to_b  #=> true
+' on '.to_b    #=> true
+' ON '.to_b    #=> true
+' y '.to_b     #=> true
+'Y'.to_b       #=> true
+' Y '.to_b     #=> true
+' yes '.to_b   #=> true
+' YES '.to_b   #=> true
+
+'0'.to_b       #=> false
+'f'.to_b       #=> false
+'F'.to_b       #=> false
+'false'.to_b   #=> false
+'FALSE'.to_b   #=> false
+'off'.to_b     #=> false
+'OFF'.to_b     #=> false
+'n'.to_b       #=> false
+'N'.to_b       #=> false
+'no'.to_b      #=> false
+'NO'.to_b      #=> false
+
+' 0 '.to_b     #=> false
+' f '.to_b     #=> false
+' F '.to_b     #=> false
+' false '.to_b #=> false
+' FALSE '.to_b #=> false
+' off '.to_b   #=> false
+' OFF '.to_b   #=> false
+' n '.to_b     #=> false
+' N '.to_b     #=> false
+' no '.to_b    #=> false
+' NO '.to_b    #=> false
+
+''.to_b        #=> false
+' '.to_b       #=> false
+
+''.to_bool     #=> nil
+' '.to_bool    #=> nil
+```
+
+### Symbol
+
+Same as `symbol.to_s.to_b` or `symbol.to_s.to_bool`/`parse_bool`.
+
+``` ruby
+:'1'.to_b   #=> true
+:t.to_b     #=> true
+:true.to_b  #=> true
+:on.to_b    #=> true
+:y.to_b     #=> true
+:yes.to_b   #=> true
+
+:'0'.to_b   #=> false
+:f.to_b     #=> false
+:false.to_b #=> false
+:off.to_b   #=> false
+:n.to_b     #=> false
+:no.to_b    #=> false
+```
+
+
+
+
+### Numeric
+
+Returns `false` if the number is zero and `true` otherwise.
+
+#### Integer
+
+```ruby
+0.to_b    #=> false
+1.to_b    #=> true
+2.to_b    #=> true
+-1.to_b   #=> true
+-2.to_b   #=> true
+```
+
+#### Float
+
+``` ruby
+0.0.to_b  #=> false
+0.1.to_b  #=> true
+1.0.to_b  #=> true
+-0.1.to_b #=> true
+-1.0.to_b #=> true
+```
+
+
+
+### Kernel
+
 More methods added to `Kernel` include `bool?`, `false?`, `true?`.
 Example:
 
