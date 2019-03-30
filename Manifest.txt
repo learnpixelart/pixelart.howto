@@ -5,3 +5,5 @@ README.md
 Rakefile
 lib/safebool.rb
 lib/safebool/version.rb
+test/helper.rb
+test/test_bool.rb

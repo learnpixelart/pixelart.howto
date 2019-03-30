@@ -11,9 +11,83 @@ safebool gem / library - safe bool(ean) type adds `Bool()`, `to_b`, `to_bool`, `
 * rdoc  :: [rubydoc.info/gems/safebool](http://rubydoc.info/gems/safebool)
 
 
+
+## Why `Bool` in Ruby?
+
+
+``` ruby
+false.class           #=> FalseClass
+true.class            #=> TrueClass
+false.is_a?(Bool)     #=> NameError: uninitialized constant Bool
+true.is_a?(Bool)      #=> NameError: uninitialized constant Bool
+true.class.ancestors  #=> [TrueClass, Object, Kernel, BasicObject]
+false.class.ancestors #=> [TrueClass, Object, Kernel, BasicObject]
+
+# -or-
+
+"true".to_b           #=> NoMethodError: undefined method `to_b' for String
+1.to_b                #=> NoMethodError: undefined method `to_b' for Integer
+Bool("true")          #=> NoMethodError: undefined method `Bool' for Kernel
+Bool(1)               #=> NoMethodError: undefined method `Bool' for Kernel
+...
+```
+
+Why? Why not? Discuss.
+
+
+
 ## Usage
 
-To be done
+``` ruby
+false.is_a?(Bool)     #=> true
+true.is_a?(Bool)      #=> true
+true.class.ancestors  #=> [TrueClass, Bool, Object, Kernel, BasicObject]
+false.class.ancestors #=> [TrueClass, Bool, Object, Kernel, BasicObject]
+
+# -or-
+
+"true".to_b           #=> true
+1.to_b                #=> true
+Bool("true")          #=> true
+Bool(1)               #=> true
+
+"false".to_b          #=> false
+0.to_b                #=> false
+Bool("false")         #=> false
+Bool(0)               #=> false
+
+...
+```
+
+
+More methods added to `Kernel` include `bool?`, `false?`, `true?`.
+Example:
+
+
+``` ruby
+# bool? - returns true if object class is TrueClass or FalseClass, otherwise false
+
+true.bool?    #=> true
+false.bool?   #=> true
+nil.bool?     #=> false
+
+# false? - returns true if object class is FalseClass, otherwise false
+
+false.false?  #=> true
+true.false?   #=> false
+nil.false?    #=> false
+
+# true? - returns true is object class is TrueClass, otherwise false
+
+true.true?    #=> true
+false.true?   #=> false
+nil.true?     #=> false
+```
+
+And some more.
+See the [`safebool.rb`](https://github.com/s6ruby/safebool/blob/master/lib/safebool.rb) source.
+
+
 
 
 ## License
