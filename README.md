@@ -55,9 +55,25 @@ Bool(1)               #=> true
 0.to_b                #=> false
 Bool("false")         #=> false
 Bool(0)               #=> false
+```
 
+How about handling errors on invalid bool values when converting / parsing?
+
+1. `to_b` always return a bool even if the conversion / parsing failed e..g `true` (for numbers) and `false` (for strings) on error
+2. `parse_bool/to_bool` always returns `nil` if the conversion / parsing failed
+3. `Bool()` always raises a `TypeError` if the conversion / parsing failed
+
+
+``` ruby
+"2".to_b              #=> false
+"2".to_bool           #=> nil
+2.to_b                #=> true
+2.to_bool             #=> nil     
+Bool("2")             #=> TypeError: cannot convert "2":String to Bool; method parse_bool/to_bool expected
+Bool(2)               #=> TypeError: cannot convert 2:Fixnum to Bool; method parse_bool/to_bool expected
 ...
 ```
+
 
 
 More methods added to `Kernel` include `bool?`, `false?`, `true?`.
