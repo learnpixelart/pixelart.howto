@@ -21,7 +21,7 @@ true.class            #=> TrueClass
 false.is_a?(Bool)     #=> NameError: uninitialized constant Bool
 true.is_a?(Bool)      #=> NameError: uninitialized constant Bool
 true.class.ancestors  #=> [TrueClass, Object, Kernel, BasicObject]
-false.class.ancestors #=> [TrueClass, Object, Kernel, BasicObject]
+false.class.ancestors #=> [FalseClass, Object, Kernel, BasicObject]
 
 # -or-
 
@@ -42,7 +42,7 @@ Why? Why not? Discuss.
 false.is_a?(Bool)     #=> true
 true.is_a?(Bool)      #=> true
 true.class.ancestors  #=> [TrueClass, Bool, Object, Kernel, BasicObject]
-false.class.ancestors #=> [TrueClass, Bool, Object, Kernel, BasicObject]
+false.class.ancestors #=> [FalseClass, Bool, Object, Kernel, BasicObject]
 
 # -or-
 
