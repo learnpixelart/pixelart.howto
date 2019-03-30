@@ -77,7 +77,7 @@ false.false?  #=> true
 true.false?   #=> false
 nil.false?    #=> false
 
-# true? - returns true is object class is TrueClass, otherwise false
+# true? - returns true if object class is TrueClass, otherwise false
 
 true.true?    #=> true
 false.true?   #=> false
