@@ -50,7 +50,7 @@ module Kernel
   def false?() self.class == FalseClass; end  ## todo/discuss: use "shortcut" self == false - why? why not?
 
   ############
-  ## Returns true is object class is TrueClass, otherwise false.
+  ## Returns true if object class is TrueClass, otherwise false.
   ##
   ## true.true?   #=> true
   ## false.true?  #=> false
