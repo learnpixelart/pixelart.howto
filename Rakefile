@@ -5,7 +5,7 @@ Hoe.spec 'safebool' do
 
   self.version = SaferBool::VERSION
 
-  self.summary = "safebool - safe bool(ean) type adds Bool(), to_b, to_bool, bool?, false?, true?, true.is_a?(Bool)==true, false.is_a?(Bool)==true, and more"
+  self.summary = "safebool - safe bool / boolean type adds Bool(), to_b, to_bool, bool?, false?, true?, true.is_a?(Bool)==true, false.is_a?(Bool)==true, and more"
   self.description = summary
 
   self.urls    = ['https://github.com/s6ruby/safebool']
