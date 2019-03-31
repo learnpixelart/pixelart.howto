@@ -2,7 +2,7 @@
 # Safe Bool Type - `Bool()`, `to_b`, `to_bool`, and More
 
 
-safebool gem / library - safe bool(ean) type adds `Bool()`, `to_b`, `to_bool`, `bool?`, `false?`, `true?`, `true.is_a?(Bool)==true`, `false.is_a?(Bool)==true`, and more
+safebool gem / library - safe bool / boolean type adds `Bool()`, `to_b`, `to_bool`, `bool?`, `false?`, `true?`, `true.is_a?(Bool)==true`, `false.is_a?(Bool)==true`, and more
 
 
 * home  :: [github.com/s6ruby/safebool](https://github.com/s6ruby/safebool)
