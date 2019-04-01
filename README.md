@@ -76,13 +76,13 @@ How about handling errors on invalid bool values when converting / parsing?
 "2".to_bool             #=> nil
 "2".to_bool.bool?       #=> false
 "2".to_bool.is_a?(Bool) #=> false
-Bool("2")               #=> TypeError: cannot convert "2":String to Bool; method parse_bool expected
+Bool("2")               #=> TypeError: cannot convert "2":String to Bool with method parse_bool; returns nil
 
 2.to_b                  #=> true
 2.to_bool               #=> nil
 2.to_bool.bool?         #=> false
 2.to_bool.is_a?(Bool)   #=> false
-Bool(2)                 #=> TypeError: cannot convert 2:Fixnum to Bool; method parse_bool expected
+Bool(2)                 #=> TypeError: cannot convert 2:Fixnum to Bool with method parse_bool; returns nil
 ...
 ```
 
