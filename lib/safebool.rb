@@ -30,16 +30,14 @@ module Bool
 
 
   def self.convert( o )   ## used by "global" Bool( o ) kernel conversion method
-    value = if o.respond_to?( :to_bool )
-              o.to_bool     # returns true/false/nil
-            elsif o.respond_to?( :parse_bool )  ## check parse_bool alias
-              o.parse_bool  # returns true/false/nil
+    value = if o.respond_to?( :parse_bool )
+              o.parse_bool()  # returns true/false/nil
             else
               nil
             end
 
     if value.nil?
-      raise TypeError.new( "cannot convert >#{o.inspect}< of type >#{o.class.name}< to Bool; method parse_bool/to_bool expected")
+      raise TypeError.new( "cannot convert >#{o.inspect}< of type >#{o.class.name}< to Bool; method parse_bool expected")
     else
       value
     end
@@ -50,7 +48,6 @@ module Bool
 
   def to_b()       self; end
   def parse_bool() self; end
-  alias_method :to_bool, :parse_bool
 end # module Bool
 
 
@@ -100,10 +97,21 @@ module Kernel
 
 
   #####
-  #   default "explicit" conversion to bool for all objects
-  def to_b() self ? true : false; end
-
-
+  #  default "explicit" conversion to bool for all objects
+  def to_b
+    if respond_to?( :parse_bool )
+      value = parse_bool()         # note: returns true/false/nil  (nil for error/cannot parse)
+      value = true  if value.nil?  #         default nil (cannot parse to bool) to true
+      value    
+    else
+      self ? true : false    ## use "standard" ruby semantics, that is, everything is true except is false & nil
+    end
+  end
+  
+  
+  # note: by "default" parse_bool is undefined (!); define parse_bool in concrete / derived class to add bool conversion support
+  def to_bool() parse_bool(); end
+  
   ### "global" conversion function / method
   def Bool( o ) Bool.convert( o ); end
 end
@@ -111,32 +119,31 @@ end
 
 
 class NilClass
-  def to_b() false; end
+  def to_b()       false; end
   def parse_bool() false; end
-  alias_method :to_bool, :parse_bool
 end
 
 class String
   def to_b
     value = parse_bool()
-    value.nil? ? false : value   ## note return false for all undefined / unknown string values
+    value = false  if value.nil?   ## note: return false (!) for all undefined / unknown string values that cannot convert to bool
+    value
   end
   def parse_bool() Bool.parse( self ); end
-  alias_method :to_bool, :parse_bool
 end
 
 class Symbol
-  def to_b() to_s.to_b; end
+  def to_b()       to_s.to_b; end
   def parse_bool() to_s.parse_bool(); end
-  alias_method :to_bool, :parse_bool
 end
 
 class Numeric
-  def to_b()
+  def to_b
     value = parse_bool()
-    value.nil? ? true : value   ## note return **true** for all undefined / unknown number/numeric values
+    value = true  if value.nil?   ## note return true for all undefined / unknown number/numeric values that cannot convert to bool
+    value
   end
-  def parse_bool()
+  def parse_bool
     if self == 0
       false
     elsif self == 1
@@ -145,9 +152,7 @@ class Numeric
       nil  ## note: returns nil if cannot convert to true or false
     end
   end
-  alias_method :to_bool, :parse_bool
 end
-
 
 
 
