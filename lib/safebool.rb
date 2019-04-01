@@ -104,13 +104,21 @@ module Kernel
       value = true  if value.nil?  #         default nil (cannot parse to bool) to true
       value    
     else
-      self ? true : false    ## use "standard" ruby semantics, that is, everything is true except is false & nil
+      self ? true : false    ## use "standard" ruby semantics, that is, everything is true except false & nil
     end
   end
   
   
-  # note: by "default" parse_bool is undefined (!); define parse_bool in concrete / derived class to add bool conversion support
-  def to_bool() parse_bool(); end
+  # to_bool - "porcelain" method "alias" for parse_bool; use parse_bool for "internal" use and to_bool for "external" use
+  # note: by "default" the method parse_bool is undefined (!);
+  #         define parse_bool in concrete / derived class to add bool conversion support
+  def to_bool() 
+    if respond_to?( :parse_bool )
+      parse_bool()
+    else
+      nil   ## note: returns nil if cannot convert to true or false
+    end
+  end
   
   ### "global" conversion function / method
   def Bool( o ) Bool.convert( o ); end
