@@ -161,25 +161,25 @@ Note: The `Bool.parse` method ignores leading and trailing spaces and upper and 
 Same as `self.to_s.to_b` or `self.to_s.to_bool`.
 
 ``` ruby
-:'1'.to_b   #=> true
-:t.to_b     #=> true
-:true.to_b  #=> true
-:on.to_b    #=> true
-:y.to_b     #=> true
-:yes.to_b   #=> true
+:'1'.to_b      #=> true
+:t.to_b        #=> true
+:true.to_b     #=> true
+:on.to_b       #=> true
+:y.to_b        #=> true
+:yes.to_b      #=> true
 
-:'0'.to_b   #=> false
-:f.to_b     #=> false
-:false.to_b #=> false
-:off.to_b   #=> false
-:n.to_b     #=> false
-:no.to_b    #=> false
+:'0'.to_b      #=> false
+:f.to_b        #=> false
+:false.to_b    #=> false
+:off.to_b      #=> false
+:n.to_b        #=> false
+:no.to_b       #=> false
 
-:xxx.to_b   #=> false
-:bool.to_b  #=> false
+:xxx.to_b      #=> false
+:bool.to_b     #=> false
 
-:xxx.to_b   #=> nil
-:bool.to_b  #=> nil
+:xxx.to_bool   #=> nil
+:bool.to_bool  #=> nil
 ```
 
 
@@ -200,6 +200,7 @@ Returns `false` if the number is zero and `true` otherwise.
 
 0.to_bool   #=> false
 1.to_bool   #=> true
+
 2.to_bool   #=> nil
 -1.to_bool  #=> nil
 -2.to_bool  #=> nil
@@ -216,6 +217,7 @@ Returns `false` if the number is zero and `true` otherwise.
 
 0.0.to_bool   #=> false
 1.0.to_bool   #=> true
+
 0.1.to_bool   #=> nil
 -0.1.to_bool  #=> nil
 -1.0.to_bool  #=> nil
