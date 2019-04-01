@@ -2,7 +2,7 @@
 # Safe Bool Type - `Bool()`, `to_b`, `to_bool`, and More
 
 
-safebool gem / library - safe bool / boolean type adds `Bool()`, `to_b`, `to_bool`, `bool?`, `false?`, `true?`, `true.is_a?(Bool)==true`, `false.is_a?(Bool)==true`, and more
+safebool gem / library - safe bool / boolean type adds `Bool()`, `to_b`, `parse_bool` / `to_bool`, `bool?`, `false?`, `true?`, `true.is_a?(Bool)==true`, `false.is_a?(Bool)==true`, and more
 
 
 * home  :: [github.com/s6ruby/safebool](https://github.com/s6ruby/safebool)
@@ -72,12 +72,17 @@ How about handling errors on invalid bool values when converting / parsing?
 
 
 ``` ruby
-"2".to_b              #=> false
-"2".to_bool           #=> nil
-2.to_b                #=> true
-2.to_bool             #=> nil     
-Bool("2")             #=> TypeError: cannot convert "2":String to Bool; method parse_bool/to_bool expected
-Bool(2)               #=> TypeError: cannot convert 2:Fixnum to Bool; method parse_bool/to_bool expected
+"2".to_b                #=> false
+"2".to_bool             #=> nil
+"2".to_bool.bool?       #=> false
+"2".to_bool.is_a?(Bool) #=> false
+Bool("2")               #=> TypeError: cannot convert "2":String to Bool; method parse_bool/to_bool expected
+
+2.to_b                  #=> true
+2.to_bool               #=> nil
+2.to_bool.bool?         #=> false
+2.to_bool.is_a?(Bool)   #=> false
+Bool(2)                 #=> TypeError: cannot convert 2:Fixnum to Bool; method parse_bool/to_bool expected
 ...
 ```
 
@@ -89,67 +94,71 @@ Bool(2)               #=> TypeError: cannot convert 2:Fixnum to Bool; method par
 For invalid boolean string values `to_b` returns `false` by default.
 See the "Handling Errors" section for more options.
 
-Note: The `Bool.parse` method ignores leading and trailing spaces and letter cases.
+Note: The `Bool.parse` method ignores leading and trailing spaces and upper and lower cases e.g. ` FaLSe ` is the same as `false`.
 
 ```ruby
-'1'.to_b       #=> true
-'t'.to_b       #=> true
-'T'.to_b       #=> true
-'true'.to_b    #=> true
-'TRUE'.to_b    #=> true
-'on'.to_b      #=> true
-'ON'.to_b      #=> true
-'y'.to_b       #=> true
-'yes'.to_b     #=> true
-'YES'.to_b     #=> true
+'1'.to_b        #=> true
+'t'.to_b        #=> true
+'T'.to_b        #=> true
+'true'.to_b     #=> true
+'TRUE'.to_b     #=> true
+'on'.to_b       #=> true
+'ON'.to_b       #=> true
+'y'.to_b        #=> true
+'yes'.to_b      #=> true
+'YES'.to_b      #=> true
 
-' 1 '.to_b     #=> true
-' t '.to_b     #=> true
-' T '.to_b     #=> true
-' true '.to_b  #=> true
-' TRUE '.to_b  #=> true
-' on '.to_b    #=> true
-' ON '.to_b    #=> true
-' y '.to_b     #=> true
-'Y'.to_b       #=> true
-' Y '.to_b     #=> true
-' yes '.to_b   #=> true
-' YES '.to_b   #=> true
+' 1 '.to_b      #=> true
+' t '.to_b      #=> true
+' T '.to_b      #=> true
+' true '.to_b   #=> true
+' TRUE '.to_b   #=> true
+' on '.to_b     #=> true
+' ON '.to_b     #=> true
+' y '.to_b      #=> true
+'Y'.to_b        #=> true
+' Y '.to_b      #=> true
+' yes '.to_b    #=> true
+' YES '.to_b    #=> true
 
-'0'.to_b       #=> false
-'f'.to_b       #=> false
-'F'.to_b       #=> false
-'false'.to_b   #=> false
-'FALSE'.to_b   #=> false
-'off'.to_b     #=> false
-'OFF'.to_b     #=> false
-'n'.to_b       #=> false
-'N'.to_b       #=> false
-'no'.to_b      #=> false
-'NO'.to_b      #=> false
+'0'.to_b        #=> false
+'f'.to_b        #=> false
+'F'.to_b        #=> false
+'false'.to_b    #=> false
+'FALSE'.to_b    #=> false
+'off'.to_b      #=> false
+'OFF'.to_b      #=> false
+'n'.to_b        #=> false
+'N'.to_b        #=> false
+'no'.to_b       #=> false
+'NO'.to_b       #=> false
 
-' 0 '.to_b     #=> false
-' f '.to_b     #=> false
-' F '.to_b     #=> false
-' false '.to_b #=> false
-' FALSE '.to_b #=> false
-' off '.to_b   #=> false
-' OFF '.to_b   #=> false
-' n '.to_b     #=> false
-' N '.to_b     #=> false
-' no '.to_b    #=> false
-' NO '.to_b    #=> false
+' 0 '.to_b      #=> false
+' f '.to_b      #=> false
+' F '.to_b      #=> false
+' false '.to_b  #=> false
+' FALSE '.to_b  #=> false
+' off '.to_b    #=> false
+' OFF '.to_b    #=> false
+' n '.to_b      #=> false
+' N '.to_b      #=> false
+' no '.to_b     #=> false
+' NO '.to_b     #=> false
 
-''.to_b        #=> false
-' '.to_b       #=> false
+''.to_b         #=> false
+' '.to_b        #=> false
+'xxx'.to_b      #=> false
+'bool'.to_b     #=> false
 
-''.to_bool     #=> nil
-' '.to_bool    #=> nil
+''.to_bool      #=> nil
+' '.to_bool     #=> nil
+'xxx'.to_bool   #=> nil
+'bool'.to_bool  #=> nil
 ```
 
 ### Symbol
 
-Same as `symbol.to_s.to_b` or `symbol.to_s.to_bool`/`parse_bool`.
+Same as `self.to_s.to_b` or `self.to_s.to_bool`.
 
 ``` ruby
 :'1'.to_b   #=> true
@@ -165,6 +174,12 @@ Same as `symbol.to_s.to_b` or `symbol.to_s.to_bool`/`parse_bool`.
 :off.to_b   #=> false
 :n.to_b     #=> false
 :no.to_b    #=> false
+
+:xxx.to_b   #=> false
+:bool.to_b  #=> false
+
+:xxx.to_b   #=> nil
+:bool.to_b  #=> nil
 ```
 
 
@@ -177,21 +192,33 @@ Returns `false` if the number is zero and `true` otherwise.
 #### Integer
 
 ```ruby
-0.to_b    #=> false
-1.to_b    #=> true
-2.to_b    #=> true
--1.to_b   #=> true
--2.to_b   #=> true
+0.to_b      #=> false
+1.to_b      #=> true
+2.to_b      #=> true
+-1.to_b     #=> true
+-2.to_b     #=> true
+
+0.to_bool   #=> false
+1.to_bool   #=> true
+2.to_bool   #=> nil
+-1.to_bool  #=> nil
+-2.to_bool  #=> nil
 ```
 
 #### Float
 
 ``` ruby
-0.0.to_b  #=> false
-0.1.to_b  #=> true
-1.0.to_b  #=> true
--0.1.to_b #=> true
--1.0.to_b #=> true
+0.0.to_b      #=> false
+1.0.to_b      #=> true
+0.1.to_b      #=> true
+-0.1.to_b     #=> true
+-1.0.to_b     #=> true
+
+0.0.to_bool   #=> false
+1.0.to_bool   #=> true
+0.1.to_bool   #=> nil
+-0.1.to_bool  #=> nil
+-1.0.to_bool  #=> nil
 ```
 
 
