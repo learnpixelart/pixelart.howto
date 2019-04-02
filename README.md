@@ -98,13 +98,13 @@ How about handling errors on invalid bool values when converting / parsing?
 "2".to_bool             #=> nil
 "2".to_bool.bool?       #=> false
 "2".to_bool.is_a?(Bool) #=> false
-Bool("2")               #=> ArgumentError: invalid value "2":String for Bool(); method parse_bool failed (returns nil)
+Bool("2")               #=> ArgumentError: invalid value "2":String for Bool(); parse_bool failed (returns nil)
 
 2.to_b                  #=> true
 2.to_bool               #=> nil
 2.to_bool.bool?         #=> false
 2.to_bool.is_a?(Bool)   #=> false
-Bool(2)                 #=> ArgumentError: invalid value 2:Integer for Bool(); method parse_bool failed (returns nil)
+Bool(2)                 #=> ArgumentError: invalid value 2:Integer for Bool(); parse_bool failed (returns nil)
 ...
 ```
 
