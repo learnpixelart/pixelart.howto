@@ -60,6 +60,19 @@ end
 Source: <https://zaiste.net/string_to_boolean_in_ruby/>
 
 
+``` ruby
+def Boolean(value)
+    case value
+    when true, 'true', 1, '1', 't' then true
+    when false, 'false', nil, '', 0, '0', 'f' then false
+    else
+      raise ArgumentError, "invalid value for Boolean(): \"#{value.inspect}\""
+    end
+  end
+```
+
+Source: <https://coderwall.com/p/inziba/conversion-to-boolean-in-ruby>
+
 
 
 
