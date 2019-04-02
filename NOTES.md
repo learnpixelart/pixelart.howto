@@ -39,3 +39,27 @@ Search rubygems with bool / boolean :-).
 -0.1.to_bool  #=> nil
 -1.0.to_bool  #=> nil
 ```
+
+- [ ] Make an empty string a valid false value e.g. "".to_bool() == false  or "".to_bool() == nil -  why? why not?
+  - ruby on rails ActiveModel bool type - returns nil for empty string (and not false)
+
+
+## More / Misc(ellaneous)
+
+``` ruby
+class String
+  def to_bool
+    return true if self =~ (/^(true|t|yes|y|1)$/i)
+    return false if self.empty? || self =~ (/^(false|f|no|n|0)$/i)
+
+    raise ArgumentError.new "invalid value: #{self}"
+  end
+end
+```
+
+Source: <https://zaiste.net/string_to_boolean_in_ruby/>
+
+
+
+
+
