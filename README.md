@@ -25,10 +25,25 @@ false.class.ancestors #=> [FalseClass, Object, Kernel, BasicObject]
 
 # -or-
 
+false.to_s            #=> "false"
+true.to_s             #=> "true"
+false.to_i            #=> NoMethodError: undefined method `to_i' for false:FalseClass
+true.to_i             #=> NoMethodError: undefined method `to_i' for true:TrueClass
+Integer(false)        #=> TypeError: can't convert false into Integer
+Integer(true)         #=> TypeError: can't convert true into Integer
+
+# -or-
+
+"false".to_b          #=> NoMethodError: undefined method `to_b' for String
+0.to_b                #=> NoMethodError: undefined method `to_b' for Integer
+Bool("false")         #=> NoMethodError: undefined method `Bool' for Kernel
+Bool(0)               #=> NoMethodError: undefined method `Bool' for Kernel
+
 "true".to_b           #=> NoMethodError: undefined method `to_b' for String
 1.to_b                #=> NoMethodError: undefined method `to_b' for Integer
 Bool("true")          #=> NoMethodError: undefined method `Bool' for Kernel
 Bool(1)               #=> NoMethodError: undefined method `Bool' for Kernel
+
 ...
 ```
 
@@ -40,7 +55,7 @@ Why? Why not? Discuss.
 
 [String](#string)  •
 [Symbol](#symbol)   •
-[Numeric](#numberic)   •
+[Integer](#integer)   •
 [Kernel](#kernel)
 
 
@@ -53,22 +68,29 @@ false.class.ancestors #=> [FalseClass, Bool, Object, Kernel, BasicObject]
 
 # -or-
 
-"true".to_b           #=> true
-1.to_b                #=> true
-Bool("true")          #=> true
-Bool(1)               #=> true
+false.to_i            #=> 0
+true.to_i             #=> 1
+
+# -or-
 
 "false".to_b          #=> false
 0.to_b                #=> false
 Bool("false")         #=> false
 Bool(0)               #=> false
+
+"true".to_b           #=> true
+1.to_b                #=> true
+Bool("true")          #=> true
+Bool(1)               #=> true
 ```
+
 
 How about handling errors on invalid bool values when converting / parsing?
 
 1. `to_b` always returns a bool even if the conversion / parsing fails e.g. `true` (for numbers) and `false` (for strings) on error
-2. `parse_bool/to_bool` always returns `nil` if the conversion / parsing failed
-3. `Bool()` always raises a `TypeError` if the conversion / parsing failed
+2. `parse_bool / to_bool` always returns `nil` if the conversion / parsing fails
+3. `Bool()` always raises an `ArgumentError` if the conversion / parsing fails
+   and a `TypeError` if the conversion is unsupported (e.g. expected required `parse_bool` method missing / undefined)
 
 
 ``` ruby
@@ -76,15 +98,16 @@ How about handling errors on invalid bool values when converting / parsing?
 "2".to_bool             #=> nil
 "2".to_bool.bool?       #=> false
 "2".to_bool.is_a?(Bool) #=> false
-Bool("2")               #=> TypeError: cannot convert "2":String to Bool with method parse_bool; returns nil
+Bool("2")               #=> ArgumentError: invalid value "2":String for Bool(); method parse_bool failed (returns nil)
 
 2.to_b                  #=> true
 2.to_bool               #=> nil
 2.to_bool.bool?         #=> false
 2.to_bool.is_a?(Bool)   #=> false
-Bool(2)                 #=> TypeError: cannot convert 2:Fixnum to Bool with method parse_bool; returns nil
+Bool(2)                 #=> ArgumentError: invalid value 2:Integer for Bool(); method parse_bool failed (returns nil)
 ...
 ```
+
 
 ### String
 
@@ -185,11 +208,10 @@ Same as `self.to_s.to_b` or `self.to_s.to_bool`.
 
 
 
-### Numeric
+### Integer
 
 Returns `false` if the number is zero and `true` otherwise.
 
-#### Integer
 
 ```ruby
 0.to_b      #=> false
@@ -205,24 +227,6 @@ Returns `false` if the number is zero and `true` otherwise.
 -1.to_bool  #=> nil
 -2.to_bool  #=> nil
 ```
-
-#### Float
-
-``` ruby
-0.0.to_b      #=> false
-1.0.to_b      #=> true
-0.1.to_b      #=> true
--0.1.to_b     #=> true
--1.0.to_b     #=> true
-
-0.0.to_bool   #=> false
-1.0.to_bool   #=> true
-
-0.1.to_bool   #=> nil
--0.1.to_bool  #=> nil
--1.0.to_bool  #=> nil
-```
-
 
 
 ### Kernel
