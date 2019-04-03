@@ -48,7 +48,7 @@ Bool(1)               #=> NoMethodError: undefined method `Bool' for Kernel
 ```
 
 
-**Everything is `true` except `false` and `nil`.**  
+**Everything is `true` except `false` and `nil`.**
 Just use the bang bang (`!!`) doubled-up (logical) boolean not operator for `to_b` conversion:
 
 ``` ruby
