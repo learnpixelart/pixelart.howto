@@ -47,8 +47,27 @@ Bool(1)               #=> NoMethodError: undefined method `Bool' for Kernel
 ...
 ```
 
-Why? Why not? Discuss.
 
+**Everything is `true` except `false` and `nil`.**  
+Just use the bang bang (`!!`) doubled-up (logical) boolean not operator for `to_b` conversion:
+
+``` ruby
+!! false   #=> false
+!! nil     #=> false
+
+!! true    #=> true
+!! "false" #=> true
+!! ""      #=> true
+!! 0       #=> true
+!! 1       #=> true
+!! []      #=> true
+!! {}      #=> true
+!! 0.0     #=> true
+!! :false  #=> true
+# ...
+```
+
+Why? Why not? Discuss.
 
 
 ## Usage
