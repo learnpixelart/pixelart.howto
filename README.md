@@ -90,7 +90,7 @@ Q: How many states has a boolean type in a (classic¹) programming language?
 - [ C ] 3 - Three States
 - [ D ] Other. Please tell
 
-A: In practice three, that is, `true`, `false` and
+A: In practice three (!), that is, `true`, `false` and
 undefined (e.g. `nil`).
 
 1: with nil-able / null-able types
