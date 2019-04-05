@@ -36,6 +36,20 @@ class TestBool < MiniTest::Test
 
     assert_equal true,   false.frozen?   ## (always) true by default
     assert_equal true,   true.frozen?    ## (always) true by default
+
+
+    assert_equal false,  !! false
+    assert_equal false,  !! nil
+
+    assert_equal true,   !! true
+    assert_equal true,   !! "false"
+    assert_equal true,   !! ""
+    assert_equal true,   !! 0
+    assert_equal true,   !! 1
+    assert_equal true,   !! []
+    assert_equal true,   !! {}
+    assert_equal true,   !! 0.0
+    assert_equal true,   !! :false
   end
 
   def test_parse
@@ -88,6 +102,12 @@ class TestBool < MiniTest::Test
     assert_equal true, Bool("y")
     assert_equal true, Bool("1")
 
+
+    assert_equal false, "".to_b
+    assert_equal false, "  ".to_b
+    assert_equal true,  "2".to_b
+    assert_equal true,  "xxx".to_b
+
     assert_equal true, "".to_bool == nil
     assert_equal true, "  ".to_bool == nil
     assert_equal true, "2".to_bool == nil
@@ -123,8 +143,12 @@ class TestBool < MiniTest::Test
     assert_equal true, Bool(:y)
     assert_equal true, Bool(:"1")
 
-    assert_equal true, :'2'.to_bool == nil
-    assert_equal true, :xxx.to_bool == nil
+    assert_equal false, :"  ".to_b
+    assert_equal true,  :"2".to_b
+    assert_equal true,  :"xxx".to_b
+
+    assert_equal true,  :'2'.to_bool == nil
+    assert_equal true,  :xxx.to_bool == nil
 
     assert_equal false, :'2'.to_bool.bool?
     assert_equal false, :'xxx'.to_bool.bool?

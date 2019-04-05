@@ -69,6 +69,34 @@ Just use the bang bang (`!!`) doubled-up (logical) boolean not operator for `to_
 
 Why? Why not? Discuss.
 
+## Intro
+
+### What's a Bool?
+
+In computer science, the Boolean data type is a data type that has one of two possible values (usually denoted _true_ and _false_),
+intended to represent the two truth values of logic and Boolean algebra.
+It is named after George Boole, who first defined an algebraic system of logic in the mid 19th century.
+
+(Source: [Boolean data type @ Wikipedia](https://en.wikipedia.org/wiki/Boolean_data_type))
+
+
+
+### Trivia Quiz - The States of Bool
+
+Q: How many states has a boolean type in a (classic) programming language?
+
+- [ A ] 1 - One State
+- [ B ] 2 - Two States
+- [ C ] 3 - Three States
+- [ D ] Other. Please tell
+
+A: In practice¹ three really :-), that is, `true`, `false` and
+undefined (e.g. `nil`).
+
+1: with nil-able / null-able types
+
+
+
 
 ## Usage
 
@@ -106,14 +134,14 @@ Bool(1)               #=> true
 
 How about handling errors on invalid bool values when converting / parsing?
 
-1. `to_b` always returns a bool even if the conversion / parsing fails e.g. `true` (for numbers) and `false` (for strings) on error
+1. `to_b` always returns a bool even if the conversion / parsing fails e.g. `true` for invalid numbers or strings and `false` (for empty / blank strings) on error
 2. `parse_bool / to_bool` always returns `nil` if the conversion / parsing fails
 3. `Bool()` always raises an `ArgumentError` if the conversion / parsing fails
    and a `TypeError` if the conversion is unsupported (e.g. expected required `parse_bool` method missing / undefined)
 
 
 ``` ruby
-"2".to_b                #=> false
+"2".to_b                #=> true
 "2".to_bool             #=> nil
 "2".to_bool.bool?       #=> false
 "2".to_bool.is_a?(Bool) #=> false
@@ -124,6 +152,17 @@ Bool("2")               #=> ArgumentError: invalid value "2":String for Bool(); 
 2.to_bool.bool?         #=> false
 2.to_bool.is_a?(Bool)   #=> false
 Bool(2)                 #=> ArgumentError: invalid value 2:Integer for Bool(); parse_bool failed (returns nil)
+
+"".to_b                  #=> false
+"".to_bool               #=> nil
+"".to_bool.bool?         #=> false
+"".to_bool.is_a?(Bool)   #=> false
+Bool("")                 #=> ArgumentError: invalid value "":String for Bool(); parse_bool failed (returns nil)
+
+# note: same for "blank" strings
+"  ".to_b                #=> false
+"  ".to_bool             #=> nil
+
 ...
 ```
 
@@ -133,7 +172,7 @@ Bool(2)                 #=> ArgumentError: invalid value 2:Integer for Bool(); p
 - Returns `true` if string is one of these values: **t**, **true**, **on**, **y**, **yes**, **1**.
 - Returns `false` if string is one of these values: **f**, **false**, **off**, **n**, **no**, **0**.
 
-For invalid boolean string values `to_b` returns `false` by default.
+For invalid boolean string values `to_b` returns `true` by default except for empty / blank strings where `to_b` returns `false`.
 See the "Handling Errors" section for more options.
 
 Note: The `Bool.parse` method ignores leading and trailing spaces and upper and lower cases e.g. ` FaLSe ` is the same as `false`.
@@ -189,8 +228,9 @@ Note: The `Bool.parse` method ignores leading and trailing spaces and upper and 
 
 ''.to_b         #=> false
 ' '.to_b        #=> false
-'xxx'.to_b      #=> false
-'bool'.to_b     #=> false
+
+'xxx'.to_b      #=> true
+'bool'.to_b     #=> true
 
 ''.to_bool      #=> nil
 ' '.to_bool     #=> nil
@@ -217,8 +257,8 @@ Same as `self.to_s.to_b` or `self.to_s.to_bool`.
 :n.to_b        #=> false
 :no.to_b       #=> false
 
-:xxx.to_b      #=> false
-:bool.to_b     #=> false
+:xxx.to_b      #=> true
+:bool.to_b     #=> true
 
 :xxx.to_bool   #=> nil
 :bool.to_bool  #=> nil

@@ -140,9 +140,13 @@ end
 
 class String
   def to_b
-    value = parse_bool()
-    value = false  if value.nil?   ## note: return false (!) for all undefined / unknown string values that cannot convert to bool
-    value
+    if strip.empty?   ## add special case for empty / blank strings - return false (!)
+      value = false
+    else
+      value = parse_bool()
+      value = true  if value.nil?   ## note: return true  for all undefined / unknown string values that cannot convert to bool (except empty string)
+      value
+    end
   end
   def parse_bool() Bool.parse( self ); end
 end
