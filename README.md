@@ -83,14 +83,14 @@ It is named after George Boole, who first defined an algebraic system of logic i
 
 ### Trivia Quiz - The States of Bool
 
-Q: How many states has a boolean type in a (classic) programming language?
+Q: How many states has a boolean type in a (classic¹) programming language?
 
 - [ A ] 1 - One State
 - [ B ] 2 - Two States
 - [ C ] 3 - Three States
 - [ D ] Other. Please tell
 
-A: In practice¹ three really :-), that is, `true`, `false` and
+A: In practice three, that is, `true`, `false` and
 undefined (e.g. `nil`).
 
 1: with nil-able / null-able types
