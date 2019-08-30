@@ -13,6 +13,9 @@ Search rubygems with bool / boolean :-).
 - gem [to_boolean](https://rubygems.org/gems/to_boolean), source <https://github.com/JaniJegoroff/to_boolean>
 - ...
 
+<!-- break -->
+
+- <https://github.com/janlelis/boolean2> 
 
 
 
