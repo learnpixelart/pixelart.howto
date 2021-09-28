@@ -32,6 +32,63 @@ Let's put together a face (8x8) building block for every of the five skin tones
 
 
 
+## Design Your Own Punk Attributes / Building Blocks and More Series
+
+[**Cool Punks Experiment - Draw Your Own Sun Glasses (from Scratch)**](coolpunks)
+
+Let's draw some sun glasses (from scratch / from zero)
+and let's turn zero-attribute "plain vanilla" punk archetypes
+into cool punks with shades.
+Let's use the online punk pixel drawing tool
+to draw all-black sun glasses in 12x3 size...
+
+
+
+[**All Caps Experiment - Choose Your Own (Baseball) Cap Color**](caps)
+
+Let's (re)draw
+the (baseball) cap (from scratch / from zero)
+and let's put the cap
+with your own colors of choice onto any
+zero-attribute "plain vanilla" punk archetype.
+
+Let's use the online punk pixel drawing tool
+to draw the (baseball) cap in 14x5 size...
+
+
+
+[**Wizard -  Attribute of the Day  -  Punk w/ Wizard Hat**](wizard)
+
+Let's get inspired by
+Legion Punks on Solana
+and let's design a wizard hat from scratch...
+
+
+[**Headphone -  Attribute of the Day  -  Punk w/ Headphone**](headphone)
+
+Let's get inspired by Bit Punk! on Cardano - see #062 -
+and let's design headphones from scratch...
+
+
+
+
+
+## Exclusive Premium Collections Series
+
+
+[**New All Star Cool Blue Alien Experiment - 40 Extraterrestrial Humanoid Andorians - Native to the Blue Icy Class M Moon Andoria  ++ Plus Bonus - How About Cyber Green? Burning Red?**](aliens)
+
+Let's unite all aliens from all collections (9 in original, 21 in more, 10 in expansion) into a new all star blue alien series...
+
+
+[**Inside the CryptoPunks Bubble - Greyscale / Grayscale Punks Collection Case Study - Conceptual Art (Parody)? (Get-Rich-Quick) Cash Grab? Greater Fools (Financial) Fraud?**](grayscale)
+
+Let's have a looksie at the Greyscale Punks collection...
+
+
+
+
+
 
 
 ## Special Effects Series
