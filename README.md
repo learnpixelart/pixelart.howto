@@ -55,6 +55,16 @@ zero-attribute "plain vanilla" punk archetype.
 Let's use the online punk pixel drawing tool
 to draw the (baseball) cap in 14x5 size...
 
+[**Wall Street Bets Experiment - Power to the Punks - Draw Your Own Wall Street Bets Degenerate (from Scratch)**](wallstreetbets)
+
+Let's draw a hair-do and sun glasses (from scratch / from zero)
+and let's turn zero-attribute "plain vanilla" punk archetypes
+into cool looking wall street bets degen traders with shades.
+
+Let's use the online punk pixel drawing tool
+to draw a wall street bets hair-do...
+
+
 
 
 [**Wizard -  Attribute of the Day  -  Punk w/ Wizard Hat**](wizard)
@@ -86,12 +96,44 @@ Let's unite all aliens from all collections (9 in original, 21 in more, 10 in ex
 Let's have a looksie at the Greyscale Punks collection...
 
 
+[**Turn Punks Upside Down Experiment  - Flipped Punks (Horizontally)**](flip)
+
+Let's turn punks upside down, that is, flip the image horizontally.
+Let's try punk #3393, #172 and #2964...
+
 
 
 
 
 
 ## Special Effects Series
+
+[**LED Light Pixel Art Experiment**](led)
+
+Let's turn 24x24 pixelated CryptoPunks
+into LED Light art. How?
+
+1. Let's use a black background.
+2. Let's change black pixels to a (lighter) shade of black (e.g. raisin black - rgb(36, 33, 36)).
+3. Let's turn pixels into LEDs by scaling up the pixel (e.g. 8x).
+4. Let's add spacing between the LEDs (e.g. 2 pixels)
+
+...
+
+
+[**Black & White (Pencil Drawing) Sketch Pixel Art Experiment**](sketches)
+
+Let's turn 24x24 pixelated CryptoPunks
+into black & white sketch art. How?
+
+1. Let's use a white background.
+2. Let's check if the left neighbouring (x-1) pixel is of a different color - if yes, draw a black vertical line.
+3. Let's check if the top neighbouring (y-1) pixel is of a different color - if yes, draw a black horizontal line.
+4. Repeat for all pixels.
+
+...
+
+
 
 [**Neon Light Glow Effect Experiment**](neon)
 
