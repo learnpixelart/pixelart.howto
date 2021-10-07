@@ -33,7 +33,7 @@ Let's put together a face (8x8) building block for every of the five skin tones
 
 [**The Making of Adam (24x24 Pixel Punk) from Scratch / Zero Using Pixel Art Designs in the ASCII Text Format**](adam)
 
-Step 1 - Generate 24x24 attributes from pixel art (in ascii text format).
+Let's generate 24x24 attributes from pixel art (in ascii text format).
 Let's start with the (base) face...
 
 
