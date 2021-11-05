@@ -1,22 +1,19 @@
-#  The Making of Adam (24x24 Pixel Punk) from Scratch / Zero Using Pixel Art Designs in the ASCII Text Format
+#  The Making of Adam (24x24 Pixel Punk) from Scratch / Zero Using Pixel Art Designs in the ASCII Text Format - 1-Bit Black & White Edition
 
 
 
 ## Step 1 - Generate 24x24 Attributes From Pixel Art (In ASCII Text Format)
 
 
-Let's start with the (base) face:
+Let's start with the (base) face - in a 1-bit black & white pixel edition:
 
 ``` ruby
 require 'pixelart'
 
 colors = {
-  '.' => 0,           # color 0 - transparent
-  '@' => '000000',    # color 1 - black
-  'x' => '86581E',    # color 2 - rgb(134  88  30) - hsl( 33°  63%  32%)
-  'o' => 'A77C47',    # color 3 - rgb(167 124  71) - hsl( 33°  40%  47%)
-  '^' => 'AE8B61',    # color 4 - rgb(174 139  97) - hsl( 33°  32%  53%)
-  '~' => 'B69F82',    # color 5 - rgb(182 159 130) - hsl( 33°  26%  61%)
+  '.' => 0,           # transparent
+  '0' => 'ffffff',    # color 0 - white
+  '1' => '000000',    # color 1 - black
 }
 
 img = Image.parse( <<TXT, colors: colors )
@@ -25,25 +22,25 @@ img = Image.parse( <<TXT, colors: colors )
 . . . . . . . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . @ @ @ @ @ @ @ . . . . . . . . .
-. . . . . . . @ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . . .
-. . . . . . @ ^ ^ ~ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ~ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ x x ^ ^ ^ x x @ . . . . . . .
-. . . . . @ ^ ^ ^ @ o ^ ^ ^ @ o @ . . . . . . .
-. . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . @ @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ @ @ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ @ @ @ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . .
-. . . . . . @ ^ ^ ^ ^ ^ ^ ^ ^ @ . . . . . . . .
-. . . . . . @ ^ ^ ^ @ @ @ @ @ . . . . . . . . .
-. . . . . . @ ^ ^ ^ @ . . . . . . . . . . . . .
-. . . . . . @ ^ ^ ^ @ . . . . . . . . . . . . .
+. . . . . . . . 1 1 1 1 1 1 1 . . . . . . . . .
+. . . . . . . 1 0 0 0 0 0 0 0 1 . . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 1 1 0 0 0 1 1 1 . . . . . . .
+. . . . . 1 0 0 0 1 0 0 0 0 1 0 1 . . . . . . .
+. . . . . 1 0 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . 1 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 1 1 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 1 1 1 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 0 1 . . . . . . .
+. . . . . . 1 0 0 0 0 0 0 0 0 1 . . . . . . . .
+. . . . . . 1 0 0 0 1 1 1 1 1 . . . . . . . . .
+. . . . . . 1 0 0 0 1 . . . . . . . . . . . . .
+. . . . . . 1 0 0 0 1 . . . . . . . . . . . . .
 TXT
 
 img.save( "./i/attributes/face.png" )
@@ -61,26 +58,20 @@ Let's add a hair-do attribute. Note: Let's place
 all attributes in a 24x24 canvas (for easier image composition):
 
 ``` ruby
-colors = {
-  '.' => 0,          # color 0
-  '@' => '970202',   # color 1
-  'x' => '6E0202',   # color 2
-}
-
 hair = Image.parse( <<TXT, colors: colors )
-. . . . . @ . . . . @ . . . . . . .
-. . . . @ @ @ @ @ @ @ @ @ @ @ . . .
-. . . . @ x x x x x @ @ @ @ @ @ . .
-. . @ @ @ @ @ @ @ @ x x @ @ @ @ @ .
-@ . . x x x x x x @ @ @ x @ @ @ @ @
-@ @ @ @ @ @ @ @ @ x @ @ @ x @ @ @ .
-. . @ x x x @ @ . . x . @ . x . . .
-. . @ @ . . x . . . . . . . . . . .
-. @ @ @ . . . . . . . . . . . . . .
-. @ @ . . . . . . . . . . . . . . .
-. . @ . . . . . . . . . . . . . . .
-. . @ . . . . . . . . . . . . . . .
-. @ . . . . . . . . . . . . . . . .
+. . . . . 1 . . . . 1 . . . . . . .
+. . . . 1 1 1 1 1 1 1 1 1 1 1 . . .
+. . . . 1 1 1 1 1 1 1 1 1 1 1 1 . .
+. . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .
+1 . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .
+. . 1 1 1 1 1 1 . . 1 . 1 . 1 . . .
+. . 1 1 . . 1 . . . . . . . . . . .
+. 1 1 1 . . . . . . . . . . . . . .
+. 1 1 . . . . . . . . . . . . . . .
+. . 1 . . . . . . . . . . . . . . .
+. . 1 . . . . . . . . . . . . . . .
+. 1 . . . . . . . . . . . . . . . .
 TXT
 img = Image.new( 24, 24 )
 img.compose!( hair, 2, 2 )   # place in 24x24 canvas (image) with x/y offset
@@ -98,21 +89,14 @@ Voila!
 Let's add a laser eyes attribute:
 
 ``` ruby
-colors = {
-  '.' =>  0,         # color 0
-  '@' => 'E6D300',   # color 1
-  'x' => 'FFF799',   # color 2
-  'o' => 'FFFFFF',   # color 3
-}
-
 lasereyes = Image.parse( <<TXT, colors: colors )
-. . . . @ . . . . . @ . . . .
-. . . . @ . . . . . @ . . . .
-. . . @ x @ . . . @ x @ . . .
-@ x x x o x @ . @ x o x x x @
-. . . @ x @ . . . @ x @ . . .
-. . . . @ . . . . . @ . . . .
-. . . . @ . . . . . @ . . . .
+. . . . 1 . . . . . 1 . . . .
+. . . . 1 . . . . . 1 . . . .
+. . . 1 1 1 . . . 1 1 1 . . .
+1 1 1 1 0 1 1 . 1 1 0 1 1 1 1
+. . . 1 1 1 . . . 1 1 1 . . .
+. . . . 1 . . . . . 1 . . . .
+. . . . 1 . . . . . 1 . . . .
 TXT
 img = Image.new( 24, 24 )
 img.compose!( lasereyes, 5, 8 )   # place in 24x24 canvas (image) with x/y offset
@@ -130,11 +114,11 @@ Voila!
 ## Step 2 - All-Together Now - Generate 24x24 Pixel Punk From Attributes
 
 
-Let's put together Adam on a blue-ish background (`6A88A1`):
+Let's put together Adam on transparent background:
 
 
 ``` ruby
-punk = Image.new( 24, 24, '6A88A1' )   # canvas (image) with background color
+punk = Image.new( 24, 24 )   # canvas (image) with transparent background color
 punk.compose!( Image.read( "i/attributes/face.png" ))
 punk.compose!( Image.read( "i/attributes/hair.png" ))
 punk.compose!( Image.read( "i/attributes/lasereyes.png" ))

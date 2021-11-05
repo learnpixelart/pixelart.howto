@@ -37,6 +37,11 @@ Let's generate 24x24 attributes from pixel art (in ascii text format).
 Let's start with the (base) face...
 
 
+[**The Making of Adam (24x24 Pixel Punk) from Scratch / Zero Using Pixel Art Designs in the ASCII Text Format - 1-Bit Black & White Edition**](adam-1bit)
+
+Let's generate 24x24 attributes from pixel art (in ascii text format).
+Let's start with the (base) face - in a 1-bit black & white pixel edition...
+
 
 
 
