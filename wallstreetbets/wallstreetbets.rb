@@ -3,17 +3,16 @@
 #    ruby ./wallstreetbets.rb
 
 
-$LOAD_PATH.unshift( "../cryptopunks/lib" )
 require 'cryptopunks'
 
 
 ## lets try 4 original (+ humans in all four skin tones)
 ##   and 4 more designs (punk archetypes)
-designs = [
-  'human-male!lighter',
-  'human-male!light',
-  'human-male!dark',
-  'human-male!darker',
+names = [
+  'human-male_4',   ## formerly skin tone lighter
+  'human-male_3',   ##   - " -   light
+  'human-male_2',   ##   - " -   dark
+  'human-male_1',   ##   - " -   darker
   'zombie-male',
   'ape-male',
   'alien-male',
@@ -24,12 +23,11 @@ designs = [
 ]
 
 
-designs.each do |design|
-  punk = Punks::Image.new( design: design )
+names.each do |name|
+  punk = Punks::Sheet.find_by( name: name )
 
-  name = design.sub( '!', '_')   ## note: change human-male!lighter to human-male_lighter
   punk.save( "./i/design-#{name}.png" )
-  punk.zoom(4).save( "./i/design-#{name}x4.png" )
+  punk.zoom(4).save( "./i/design-#{name}@4x.png" )
 end
 
 
@@ -49,7 +47,7 @@ TXT
 puts "  hair (#{hair.width}x#{hair.height})"
 
 hair.save( './i/hair.png' )
-hair.zoom(4).save( './i/hairx4.png' )
+hair.zoom(4).save( './i/hair@4x.png' )
 
 
 shades = Image.parse( <<TXT, colors: ['000000'] )
@@ -60,21 +58,19 @@ TXT
 puts "  shades (#{shades.width}x#{shades.height})"
 
 shades.save( './i/shades.png' )
-shades.zoom(4).save( './i/shadesx4.png' )
+shades.zoom(4).save( './i/shades@4x.png' )
 
 
 
 
-designs.each do |design|
-  punk = Punks::Image.new( design: design )
+names.each do |name|
+  punk = Punks::Sheet.find_by( name: name  )
 
   punk.compose!( hair,   3, 2  )
   punk.compose!( shades, 6, 11 )
 
-  name = design.sub( '!', '_')   ## note: change human-male!lighter to human-male_lighter
-
   punk.save( "./i/wallstreetbets-#{name}.png" )
-  punk.zoom(4).save( "./i/wallstreetbets-#{name}x4.png" )
+  punk.zoom(4).save( "./i/wallstreetbets-#{name}@4x.png" )
 end
 
 
