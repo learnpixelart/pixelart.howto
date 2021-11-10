@@ -25,6 +25,16 @@ wizard.save( './i/wizard.png' )
 wizard.zoom(4).save( './i/wizard4x.png' )
 
 
+## bonus - save wizard hat as 24x24 attribute for easy (re)use
+img = Image.new( 24, 24 )
+img.compose!( wizard, 4, 0 )
+img.save( './tmp/wizardhat.png' )
+img.zoom(4).save( './tmp/wizardhat@4x.png' )
+
+
+
+
+
 
 designs = [
   'human-male!lighter',
