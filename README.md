@@ -176,17 +176,10 @@ the punks #0, #2964, #3100, #3393 ...
 
 
 
-## Punk Art #1 Challenge Series
+## Punk Art #1 Challenge Series - (Modern Dotty Spotty) Currency Art How-Tos
 
 
-Note: All dotty spotty currency how-tos moved
-to its own modern dotty spotty currency art how-tos' repo
-@ the [**Currency Art org »**](https://github.com/currencyart).
-
-
-
-
-[**Dotty Spotty "Currency" Punks**](https://github.com/currencyart/currencyart-howto/tree/master/spots)
+[**Dotty Spotty "Currency" Punks**](spots)
 
 Let's give it a try using
 the punks alien #3100,
@@ -198,12 +191,12 @@ Let's start with 10px circles -
 resulting in a 24*10px = 240×240px format...
 
 
-[**Dotty Spotty "Currency" Punks - The High-Definition (Hi-Def) XXXL Edition**](https://github.com/currencyart/currencyart-howto/tree/master/spots-hidef)
+[**Dotty Spotty "Currency" Punks - The High-Definition (Hi-Def) XXXL Edition**](spots-hidef)
 
 Welcome back. Let's try a high-definition (hi-def) XXXL edition...
 
 
-[**Dotty Spotty "Currency" Punks Inspired by Damien Hirst's "The Currency"**](https://github.com/currencyart/currencyart-howto/tree/master/currency)
+[**Dotty Spotty "Currency" Punks Inspired by Damien Hirst's "The Currency"**](currency)
 
 Welcome back.
 Let's try "random" background spots
@@ -211,7 +204,7 @@ inspired by Damien Hirst's $40+ million "The Currency"
 art collection...
 
 
-[**Golden Bored Apes Art Challenge #1 Experiment -  Dotty Spotty "Currency" Golden Bored Apes Inspired by Damien Hirst's "The Currency"**](https://github.com/currencyart/currencyart-howto/tree/master/currency-bored-apes)
+[**Golden Bored Apes Art Challenge #1 Experiment -  Dotty Spotty "Currency" Golden Bored Apes Inspired by Damien Hirst's "The Currency"**](currency-bored-apes)
 
 Welcome back. Let's change ~Punk~ to Golden Bored Ape :-).
 
@@ -219,6 +212,8 @@ Let's give it a try using
 golden ~24px~ 28px bored apes.
 Let's start with 10px circles -
 resulting in a 28*10px = 280×280px format...
+
+
 
 
 
