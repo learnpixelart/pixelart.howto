@@ -6,16 +6,16 @@
 
 ### Punk Series
 
-![](i/punk-10190-currency-v2@2x.png)
+![](currency/i/punk-10190-currency-v2@2x.png)
 
 [Free XXXL Download](https://github.com/pixelartexchange/pixelart.howto/raw/master/currency/i/punk-10190-currency-v2@2x.svg)
 
-![](i/punk-10100-currency-v2@2x.png)
+![](currency/i/punk-10100-currency-v2@2x.png)
 
 [Free XXXL Download](https://github.com/pixelartexchange/pixelart.howto/raw/master/currency/i/punk-10100-currency-v2@2x.svg)
 
 
-![](i/punk-10088-currency-v2@2x.png)
+![](currency/i/punk-10088-currency-v2@2x.png)
 
 [Free XXXL Download](https://github.com/pixelartexchange/pixelart.howto/raw/master/currency/i/punk-10088-currency-v2@2x.svg)
 
@@ -33,13 +33,13 @@
 ### Golden Bored Apes Series
 
 
-![](i/boredape_au-8-currency-v2@2x.png)
+![](currency-bored-apes/i/boredape_au-8-currency-v2@2x.png)
 
 [Free XXXL Download](https://github.com/pixelartexchange/pixelart.howto/raw/master/currency-bored-apes/i/boredape_au-8-currency-v2@2x.svg)
 
 
 
-![](i/boredape_au-27-currency-v2@2x.png)
+![](currency-bored-apes/i/boredape_au-27-currency-v2@2x.png)
 
 [Free XXXL Download](https://github.com/pixelartexchange/pixelart.howto/raw/master/currency-bored-apes/i/boredape_au-27-currency-v2@2x.svg)
 
