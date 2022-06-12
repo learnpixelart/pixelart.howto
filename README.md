@@ -220,4 +220,6 @@ resulting in a 28*10px = 280×280px format...
 
 ## Questions? Comments?
 
-Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
